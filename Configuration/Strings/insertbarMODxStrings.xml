@@ -1,0 +1,14 @@
+<strings>
+	<string id="insertbar/modx/yes"								value="Yes" />
+	<string id="insertbar/modx/no"								value="No" />
+
+	<string id="insertbar/modx/snippet/snippet"					value="Snippet" />
+	<string id="insertbar/modx/snippet/cache"					value="Cache?" />
+
+	<string id="insertbar/modx/snippet/GetField"				value="GetField" />
+	<string id="insertbar/modx/snippet/GetField/docid"			value="Document ID" />
+	<string id="insertbar/modx/snippet/GetField/field"			value="Field or TV" />
+	<string id="insertbar/modx/snippet/GetField/parent"			value="Parent?" />
+	<string id="insertbar/modx/snippet/GetField/parentLevel"	value="Parent Level" />
+	<string id="insertbar/modx/snippet/GetField/topid"			value="topid" />
+</strings>

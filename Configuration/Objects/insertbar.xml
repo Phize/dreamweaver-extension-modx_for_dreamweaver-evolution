@@ -1,0 +1,6 @@
+	<category id="DW_Insertbar_MODx" name="MODx" folder="MODx">
+		<menubutton id="DW_Snippet" name="Snippet" image="MODx\Snippet.png" folder="Snippet">
+			<button id="DW_Ditto" name="Ditto" image="MODx\Ditto.png" file="MODx\Ditto.htm" />
+			<button id="DW_GetField" name="GetField" image="MODx\Ditto.png" file="MODx\GetField.htm" />
+		</menubutton>
+	</category>
