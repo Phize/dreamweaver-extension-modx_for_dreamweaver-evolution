@@ -1,3 +1,9 @@
+// Copyright(C) 2008 Phize.
+// http://phize.net
+// http://dxd8.com
+
+
+
 // Get & Check snippet's parameters.
 function getSnippetParameters(_form, _default) {
 	var _newParams = {};

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML SYSTEM "-//Macromedia//DWExtension layout-engine 5.0//dialog">
+<html xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+  <head>
+    <!-- Copyright(C) 2008 Phize. -->
+    <!-- http://phize.net -->
+    <!-- http://dxd8.com -->
+    <title><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs" /></title>
+    <script src="../common.js" type="text/javascript"></script>
+    <script src="snippet_common.js" type="text/javascript"></script>
+    <script src="Breadcrumbs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var DefaultParams = [];   // Default parameters
+    </script>
+    <link href="../common.css" rel="stylesheet" type="text/css" />
+  </head>
+
+
+
+  <body onload="initialize(document.SnippetForm);">
+    <form id="SnippetForm">
+      <table class="field">
+        <tbody>
+          <tr>
+            <th><label for="maxCrumbs"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/maxCrumbs" /></label></th>
+            <td><input name="maxCrumbs" type="text" value="100" /></td>
+          </tr>
+          <tr>
+            <th><label for="pathThruUnPub"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/pathThruUnPub" /></label></th>
+            <td>
+              <select name="pathThruUnPub">
+                <option value="0"><MMString:LoadString id="insertbar/modx/no" /></option>
+                <option value="1" selected="selected"><MMString:LoadString id="insertbar/modx/yes" /></option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="respectHidemenu"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/respectHidemenu" /></label></th>
+            <td>
+              <select name="respectHidemenu">
+                <option value="0"><MMString:LoadString id="insertbar/modx/no" /></option>
+                <option value="1" selected="selected"><MMString:LoadString id="insertbar/modx/yes" /></option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="showHomeCrumb"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/showHomeCrumb" /></label></th>
+            <td>
+              <select name="showHomeCrumb">
+                <option value="0"><MMString:LoadString id="insertbar/modx/no" /></option>
+                <option value="1" selected="selected"><MMString:LoadString id="insertbar/modx/yes" /></option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="showCrumbsAtHome"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/showCrumbsAtHome" /></label></th>
+            <td>
+              <select name="showCrumbsAtHome">
+                <option value="0" selected="selected"><MMString:LoadString id="insertbar/modx/no" /></option>
+                <option value="1"><MMString:LoadString id="insertbar/modx/yes" /></option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="showCurrentCrumb"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/showCurrentCrumb" /></label></th>
+            <td>
+              <select name="showCurrentCrumb">
+                <option value="0"><MMString:LoadString id="insertbar/modx/no" /></option>
+                <option value="1" selected="selected"><MMString:LoadString id="insertbar/modx/yes" /></option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="showCrumbsAsLinks"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/showCrumbsAsLinks" /></label></th>
+            <td>
+              <select name="showCrumbsAsLinks">
+                <option value="0"><MMString:LoadString id="insertbar/modx/no" /></option>
+                <option value="1" selected="selected"><MMString:LoadString id="insertbar/modx/yes" /></option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="currentAsLink"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/currentAsLink" /></label></th>
+            <td>
+              <select name="currentAsLink">
+                <option value="0" selected="selected"><MMString:LoadString id="insertbar/modx/no" /></option>
+                <option value="1"><MMString:LoadString id="insertbar/modx/yes" /></option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="crumbSeparator"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/crumbSeparator" /></label></th>
+            <td><input name="crumbSeparator" type="text" value="&amp;raquo;" /></td>
+          </tr>
+          <tr>
+            <th><label for="homeCrumbTitle"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/homeCrumbTitle" /></label></th>
+            <td><input name="homeCrumbTitle" type="text" value="Home" /></td>
+          </tr>
+          <tr>
+            <th><label for="homeCrumbDescription"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/homeCrumbDescription" /></label></th>
+            <td><input name="homeCrumbDescription" type="text" value="" /></td>
+          </tr>
+          <tr>
+            <th><label for="titleField"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/titleField" /></label></th>
+            <td><input name="titleField" type="text" value="pagetitle" /></td>
+          </tr>
+          <tr>
+            <th><label for="descField"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/descField" /></label></th>
+            <td><input name="descField" type="text" value="description" /></td>
+          </tr>
+          <tr>
+            <th><label for="homePageId"><MMString:LoadString id="insertbar/modx/snippet/Breadcrumbs/homePageId" /></label></th>
+            <td><input name="homePageId" type="text" value="" /></td>
+          </tr>
+
+
+
+          <tr>
+            <th><label for="_cache"><MMString:LoadString id="insertbar/modx/snippet/cache" /></label></th>
+            <td><input name="_cache" type="checkbox" checked="checked" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

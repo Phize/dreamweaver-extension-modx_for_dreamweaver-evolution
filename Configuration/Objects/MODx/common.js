@@ -1,3 +1,9 @@
+// Copyright(C) 2008 Phize.
+// http://phize.net
+// http://dxd8.com
+
+
+
 function isDOMRequired() { 
 	return false;
 }
@@ -11,8 +17,8 @@ function canInsertObject() {
 
 
 // Initialize UI & Save default parameters.
-function initialize() {
-	var _field = getFormFields(document.SnippetForm);
+function initialize(_form) {
+	var _field = getFormFields(_form);
 	DefaultParams = getParameters(_field);
 
 	if (_field.length > 0) {

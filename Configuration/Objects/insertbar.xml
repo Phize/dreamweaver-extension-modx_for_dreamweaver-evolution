@@ -1,6 +1,177 @@
 	<category id="DW_Insertbar_MODx" name="MODx" folder="MODx">
-		<menubutton id="DW_Snippet" name="Snippet" image="MODx\Snippet.png" folder="Snippet">
-			<button id="DW_Ditto" name="Ditto" image="MODx\Ditto.png" file="MODx\Ditto.htm" />
-			<button id="DW_GetField" name="GetField" image="MODx\Ditto.png" file="MODx\GetField.htm" />
+		<!-- Path ================================================== -->
+		<menubutton id="DW_MODx_Path" MMString:name="insertbar/modx/path" image="MODx/path/path.png" folder="Path">
+			<button id="DW_MODx_Path_assets" MMString:name="insertbar/modx/path/assets" image="MODx/path/path.png" file="MODx/path/assets.htm" />
+
+			<separator />
+
+			<button id="DW_MODx_Path_images" MMString:name="insertbar/modx/path/images" image="MODx/path/path.png" file="MODx/path/images.htm" />
+			<button id="DW_MODx_Path_js" MMString:name="insertbar/modx/path/js" image="MODx/path/path.png" file="MODx/path/js.htm" />
+			<button id="DW_MODx_Path_flash" MMString:name="insertbar/modx/path/flash" image="MODx/path/path.png" file="MODx/path/flash.htm" />
+			<button id="DW_MODx_Path_media" MMString:name="insertbar/modx/path/media" image="MODx/path/path.png" file="MODx/path/media.htm" />
+			<button id="DW_MODx_Path_files" MMString:name="insertbar/modx/path/files" image="MODx/path/path.png" file="MODx/path/files.htm" />
+
+			<separator />
+
+			<button id="DW_MODx_Path_docs" MMString:name="insertbar/modx/path/docs" image="MODx/path/path.png" file="MODx/path/docs.htm" />
+
+			<separator />
+
+			<button id="DW_MODx_Path_cache" MMString:name="insertbar/modx/path/cache" image="MODx/path/path.png" file="MODx/path/cache.htm" />
+			<button id="DW_MODx_Path_export" MMString:name="insertbar/modx/path/export" image="MODx/path/path.png" file="MODx/path/export.htm" />
+			<button id="DW_MODx_Path_import" MMString:name="insertbar/modx/path/import" image="MODx/path/path.png" file="MODx/path/import.htm" />
+
+			<separator />
+
+			<button id="DW_MODx_Path_modules" MMString:name="insertbar/modx/path/modules" image="MODx/path/path.png" file="MODx/path/modules.htm" />
+			<button id="DW_MODx_Path_plugins" MMString:name="insertbar/modx/path/plugins" image="MODx/path/path.png" file="MODx/path/plugins.htm" />
+			<button id="DW_MODx_Path_site" MMString:name="insertbar/modx/path/site" image="MODx/path/path.png" file="MODx/path/site.htm" />
+			<button id="DW_MODx_Path_snippets" MMString:name="insertbar/modx/path/snippets" image="MODx/path/path.png" file="MODx/path/snippets.htm" />
+			<button id="DW_MODx_Path_templates" MMString:name="insertbar/modx/path/templates" image="MODx/path/path.png" file="MODx/path/templates.htm" />
+        </menubutton>
+
+
+
+		<separator />
+
+
+
+		<!-- Link ================================================== -->
+		<menubutton id="DW_MODx_Link_document" MMString:name="insertbar/modx/link/document" image="MODx/link/link.png" folder="Link (Document)">
+			<button id="DW_MODx_Link_current" MMString:name="insertbar/modx/link/current" image="MODx/link/link.png" file="MODx/link/current.htm" />
+			<button id="DW_MODx_Link_parent" MMString:name="insertbar/modx/link/parent" image="MODx/link/link.png" file="MODx/link/parent.htm" />
+			<button id="DW_MODx_Link_site_start" MMString:name="insertbar/modx/link/site_start" image="MODx/link/link.png" file="MODx/link/site_start.htm" />
+			<button id="DW_MODx_Link_error_page" MMString:name="insertbar/modx/link/error_page" image="MODx/link/link.png" file="MODx/link/error_page.htm" />
+			<button id="DW_MODx_Link_unauthorized_page" MMString:name="insertbar/modx/link/unauthorized_page" image="MODx/link/link.png" file="MODx/link/unauthorized_page.htm" />
+			<button id="DW_MODx_Link_site_unavailable_page" MMString:name="insertbar/modx/link/site_unavailable_page" image="MODx/link/link.png" file="MODx/link/site_unavailable_page.htm" />
+		</menubutton>
+
+		<button id="DW_MODx_Link" MMString:name="insertbar/modx/link" image="MODx/link/link.png" file="MODx/link/link.htm" />
+
+
+
+		<separator />
+
+
+
+		<!-- Snippet ================================================== -->
+		<menubutton id="DW_MODx_Snippet_Builtin" MMString:name="insertbar/modx/snippet/builtin" image="MODx/snippet/snippet.png" folder="Snippet (Built-in)">
+			<button id="DW_MODx_Snippet_AjaxSearch" name="AjaxSearch" image="MODx/snippet/snippet.png" file="MODx/snippet/AjaxSearch.htm" />
+			<button id="DW_MODx_Snippet_Breadcrumbs" name="Breadcrumbs" image="MODx/snippet/snippet.png" file="MODx/snippet/Breadcrumbs.htm" />
+			<button id="DW_MODx_Snippet_Ditto" name="Ditto" image="MODx/snippet/snippet.png" file="MODx/snippet/Ditto.htm" />
+			<button id="DW_MODx_Snippet_eForm" name="eForm" image="MODx/snippet/snippet.png" file="MODx/snippet/eForm.htm" />
+			<button id="DW_MODx_Snippet_FirstChildRedirect" name="FirstChildRedirect" image="MODx/snippet/snippet.png" file="MODx/snippet/FirstChildRedirect.htm" />
+			<button id="DW_MODx_Snippet_Jot" name="Jot" image="MODx/snippet/snippet.png" file="MODx/snippet/Jot.htm" />
+			<button id="DW_MODx_Snippet_ListIndexer" name="ListIndexer" image="MODx/snippet/snippet.png" file="MODx/snippet/ListIndexer.htm" />
+			<button id="DW_MODx_Snippet_MemberCheck" name="MemberCheck" image="MODx/snippet/snippet.png" file="MODx/snippet/MemberCheck.htm" />
+			<button id="DW_MODx_Snippet_NewsPublisher" name="NewsPublisher" image="MODx/snippet/snippet.png" file="MODx/snippet/NewsPublisher.htm" />
+			<button id="DW_MODx_Snippet_Personalize" name="Personalize" image="MODx/snippet/snippet.png" file="MODx/snippet/Personalize.htm" />
+			<button id="DW_MODx_Snippet_Reflect" name="Reflect" image="MODx/snippet/snippet.png" file="MODx/snippet/Reflect.htm" />
+			<button id="DW_MODx_Snippet_UltimateParent" name="UltimateParent" image="MODx/snippet/snippet.png" file="MODx/snippet/UltimateParent.htm" />
+			<button id="DW_MODx_Snippet_Wayfinder" name="Wayfinder" image="MODx/snippet/snippet.png" file="MODx/snippet/Wayfinder.htm" />
+			<button id="DW_MODx_Snippet_WebChangePwd" name="WebChangePwd" image="MODx/snippet/snippet.png" file="MODx/snippet/WebChangePwd.htm" />
+			<button id="DW_MODx_Snippet_WebLogin" name="WebLogin" image="MODx/snippet/snippet.png" file="MODx/snippet/WebLogin.htm" />
+			<button id="DW_MODx_Snippet_WebSignup" name="WebSignup" image="MODx/snippet/snippet.png" file="MODx/snippet/WebSignup.htm" />
+		</menubutton>
+
+		<menubutton id="DW_MODx_Snippet_Popular" MMString:name="insertbar/modx/snippet/popular" image="MODx/snippet/snippet.png" folder="Snippet (Popular)">
+			<button id="DW_MODx_Snippet_GetField" name="GetField" image="MODx/snippet/snippet.png" file="MODx/snippet/GetField.htm" />
+		</menubutton>
+
+		<button id="DW_MODx_Snippet" MMString:name="insertbar/modx/snippet" image="MODx/snippet/snippet.png" file="MODx/snippet/snippet.htm" />
+
+
+
+		<separator />
+
+
+
+		<!-- Template Variable ================================================== -->
+		<menubutton id="DW_MODx_TV_General" MMString:name="insertbar/modx/tv/general" image="MODx/tv/tv.png" folder="Template Variable (General)">
+			<button id="DW_MODx_TV_id" MMString:name="insertbar/modx/tv/id" image="MODx/tv/tv.png" file="MODx/tv/id.htm" />
+			<button id="DW_MODx_TV_pagetitle" MMString:name="insertbar/modx/tv/pagetitle" image="MODx/tv/tv.png" file="MODx/tv/pagetitle.htm" />
+			<button id="DW_MODx_TV_longtitle" MMString:name="insertbar/modx/tv/longtitle" image="MODx/tv/tv.png" file="MODx/tv/longtitle.htm" />
+			<button id="DW_MODx_TV_description" MMString:name="insertbar/modx/tv/description" image="MODx/tv/tv.png" file="MODx/tv/description.htm" />
+			<button id="DW_MODx_TV_type" MMString:name="insertbar/modx/tv/type" image="MODx/tv/tv.png" file="MODx/tv/type.htm" />
+			<button id="DW_MODx_TV_alias" MMString:name="insertbar/modx/tv/alias" image="MODx/tv/tv.png" file="MODx/tv/alias.htm" />
+			<button id="DW_MODx_TV_link_attributes" MMString:name="insertbar/modx/tv/link_attributes" image="MODx/tv/tv.png" file="MODx/tv/link_attributes.htm" />
+			<button id="DW_MODx_TV_introtext" MMString:name="insertbar/modx/tv/introtext" image="MODx/tv/tv.png" file="MODx/tv/introtext.htm" />
+			<button id="DW_MODx_TV_template" MMString:name="insertbar/modx/tv/template" image="MODx/tv/tv.png" file="MODx/tv/template.htm" />
+			<button id="DW_MODx_TV_menuindex" MMString:name="insertbar/modx/tv/menuindex" image="MODx/tv/tv.png" file="MODx/tv/menuindex.htm" />
+			<button id="DW_MODx_TV_menutitle" MMString:name="insertbar/modx/tv/menutitle" image="MODx/tv/tv.png" file="MODx/tv/menutitle.htm" />
+			<button id="DW_MODx_TV_parent" MMString:name="insertbar/modx/tv/parent" image="MODx/tv/tv.png" file="MODx/tv/parent.htm" />
+			<button id="DW_MODx_TV_hidemenu" MMString:name="insertbar/modx/tv/hidemenu" image="MODx/tv/tv.png" file="MODx/tv/hidemenu.htm" />
+			<button id="DW_MODx_TV_content" MMString:name="insertbar/modx/tv/content" image="MODx/tv/tv.png" file="MODx/tv/.htm" />
+		</menubutton>
+
+		<menubutton id="DW_MODx_TV_PageSettings" MMString:name="insertbar/modx/tv/pagesettings" image="MODx/tv/tv.png" folder="Template Variable (Page Setting)">
+			<button id="DW_MODx_TV_isfolder" MMString:name="insertbar/modx/tv/isfolder" image="MODx/tv/tv.png" file="MODx/tv/isfolder.htm" />
+			<button id="DW_MODx_TV_richtext" MMString:name="insertbar/modx/tv/richtext" image="MODx/tv/tv.png" file="MODx/tv/richtext.htm" />
+			<button id="DW_MODx_TV_donthit" MMString:name="insertbar/modx/tv/donthit" image="MODx/tv/tv.png" file="MODx/tv/donthit.htm" />
+			<button id="DW_MODx_TV_published" MMString:name="insertbar/modx/tv/published" image="MODx/tv/tv.png" file="MODx/tv/published.htm" />
+			<button id="DW_MODx_TV_pub_date" MMString:name="insertbar/modx/tv/pub_date" image="MODx/tv/tv.png" file="MODx/tv/pub_date.htm" />
+			<button id="DW_MODx_TV_unpub_date" MMString:name="insertbar/modx/tv/unpub_date" image="MODx/tv/tv.png" file="MODx/tv/unpub_date.htm" />
+			<button id="DW_MODx_TV_searchable" MMString:name="insertbar/modx/tv/searchable" image="MODx/tv/tv.png" file="MODx/tv/searchable.htm" />
+			<button id="DW_MODx_TV_cacheable" MMString:name="insertbar/modx/tv/cacheable" image="MODx/tv/tv.png" file="MODx/tv/cacheable.htm" />
+			<button id="DW_MODx_TV_syncsite" MMString:name="insertbar/modx/tv/syncsite" image="MODx/tv/tv.png" file="MODx/tv/syncsite.htm" />
+			<button id="DW_MODx_TV_contentType" MMString:name="insertbar/modx/tv/contentType" image="MODx/tv/tv.png" file="MODx/tv/contentType.htm" />
+			<button id="DW_MODx_TV_contentdispo" MMString:name="insertbar/modx/tv/contentdispo" image="MODx/tv/tv.png" file="MODx/tv/contentdispo.htm" />
+		</menubutton>
+
+		<menubutton id="DW_MODx_TV_MetaKeywords" MMString:name="insertbar/modx/tv/metakeywords" image="MODx/tv/tv.png" folder="Template Variable (META Keywords)">
+			<button id="DW_MODx_TV_keywords" MMString:name="insertbar/modx/tv/keywords" image="MODx/tv/tv.png" file="MODx/tv/keywords.htm" />
+			<button id="DW_MODx_TV_metatags" MMString:name="insertbar/modx/tv/metatags" image="MODx/tv/tv.png" file="MODx/tv/metatags.htm" />
+		</menubutton>
+
+		<menubutton id="DW_MODx_TV_Status" MMString:name="insertbar/modx/tv/status" image="MODx/tv/tv.png" folder="Template Variable (Status)">
+			<button id="DW_MODx_TV_createdby" MMString:name="insertbar/modx/tv/createdby" image="MODx/tv/tv.png" file="MODx/tv/createdby.htm" />
+			<button id="DW_MODx_TV_createdon" MMString:name="insertbar/modx/tv/createdon" image="MODx/tv/tv.png" file="MODx/tv/createdon.htm" />
+			<button id="DW_MODx_TV_editedby" MMString:name="insertbar/modx/tv/editedby" image="MODx/tv/tv.png" file="MODx/tv/editedby.htm" />
+			<button id="DW_MODx_TV_editedon" MMString:name="insertbar/modx/tv/editedon" image="MODx/tv/tv.png" file="MODx/tv/editedon.htm" />
+			<button id="DW_MODx_TV_deleted" MMString:name="insertbar/modx/tv/deleted" image="MODx/tv/tv.png" file="MODx/tv/deleted.htm" />
+			<button id="DW_MODx_TV_deletedby" MMString:name="insertbar/modx/tv/deletedby" image="MODx/tv/tv.png" file="MODx/tv/deletedby.htm" />
+			<button id="DW_MODx_TV_deletedon" MMString:name="insertbar/modx/tv/deletedon" image="MODx/tv/tv.png" file="MODx/tv/deletedon.htm" />
+			<button id="DW_MODx_TV_haskeywords" MMString:name="insertbar/modx/tv/haskeywords" image="MODx/tv/tv.png" file="MODx/tv/haskeywords.htm" />
+			<button id="DW_MODx_TV_hasmetatags" MMString:name="insertbar/modx/tv/hasmetatags" image="MODx/tv/tv.png" file="MODx/tv/hasmetatags.htm" />
+			<button id="DW_MODx_TV_privateweb" MMString:name="insertbar/modx/tv/privateweb" image="MODx/tv/tv.png" file="MODx/tv/privateweb.htm" />
+			<button id="DW_MODx_TV_privatemgr" MMString:name="insertbar/modx/tv/privatemgr" image="MODx/tv/tv.png" file="MODx/tv/privatemgr.htm" />
+		</menubutton>
+
+		<button id="DW_MODx_TV" MMString:name="insertbar/modx/tv" image="MODx/tv/tv.png" file="MODx/tv/tv.htm" />
+
+
+
+		<separator />
+
+
+
+		<!-- Chunk ================================================== -->
+		<button id="DW_MODx_Chunk" MMString:name="insertbar/modx/chunk" image="MODx/chunk/chunk.png" file="MODx/chunk/chunk.htm" />
+
+
+
+		<!-- Place holder ================================================== -->
+		<button id="DW_MODx_Placeholder" MMString:name="insertbar/modx/placeholder" image="MODx/placeholder/placeholder.png" file="MODx/placeholder/placeholder.htm" />
+
+
+
+		<separator />
+
+
+
+		<!-- Setting ================================================== -->
+		<menubutton id="DW_MODx_Setting" MMString:name="insertbar/modx/setting" image="MODx/setting/setting.png" folder="Setting">
+			<button id="DW_MODx_Setting_" MMString:name="insertbar/modx/setting/" image="MODx/setting/setting.png" file="MODx/setting/.htm" />
+		</menubutton>
+
+
+
+		<!-- Timing ================================================== -->
+		<menubutton id="DW_MODx_Timing" MMString:name="insertbar/modx/timing" image="MODx/timing/timing.png" folder="Timing">
+			<button id="DW_MODx_Timing_qt" MMString:name="insertbar/modx/timing/qt" image="MODx/timing/timing.png" file="MODx/timing/qt.htm" />
+			<button id="DW_MODx_Timing_q" MMString:name="insertbar/modx/timing/q" image="MODx/timing/timing.png" file="MODx/timing/q.htm" />
+			<button id="DW_MODx_Timing_p" MMString:name="insertbar/modx/timing/p" image="MODx/timing/timing.png" file="MODx/timing/p.htm" />
+			<button id="DW_MODx_Timing_t" MMString:name="insertbar/modx/timing/t" image="MODx/timing/timing.png" file="MODx/timing/t.htm" />
+			<button id="DW_MODx_Timing_s" MMString:name="insertbar/modx/timing/s" image="MODx/timing/timing.png" file="MODx/timing/s.htm" />
 		</menubutton>
 	</category>

@@ -1,14 +1,346 @@
 <strings>
-	<string id="insertbar/modx/yes"								value="Yes" />
-	<string id="insertbar/modx/no"								value="No" />
+	<!-- Common ================================================== -->
+	<string id="insertbar/modx/yes"											value="Yes" />
+	<string id="insertbar/modx/no"											value="No" />
 
-	<string id="insertbar/modx/snippet/snippet"					value="Snippet" />
-	<string id="insertbar/modx/snippet/cache"					value="Cache?" />
 
-	<string id="insertbar/modx/snippet/GetField"				value="GetField" />
-	<string id="insertbar/modx/snippet/GetField/docid"			value="Document ID" />
-	<string id="insertbar/modx/snippet/GetField/field"			value="Field or TV" />
-	<string id="insertbar/modx/snippet/GetField/parent"			value="Parent?" />
-	<string id="insertbar/modx/snippet/GetField/parentLevel"	value="Parent Level" />
-	<string id="insertbar/modx/snippet/GetField/topid"			value="topid" />
+
+	<!-- Path ================================================== -->
+	<string id="insertbar/modx/path"										value="Path" />
+	<string id="insertbar/modx/path/_help"									value="about:blank" />
+
+	<string id="insertbar/modx/path/assets"									value="Assets" />
+	<string id="insertbar/modx/path/images"									value="Images" />
+	<string id="insertbar/modx/path/js"										value="JavaScript" />
+	<string id="insertbar/modx/path/flash"									value="Flash" />
+	<string id="insertbar/modx/path/media"									value="Media" />
+	<string id="insertbar/modx/path/files"									value="Files" />
+	<string id="insertbar/modx/path/docs"									value="Documents" />
+	<string id="insertbar/modx/path/cache"									value="Cache" />
+	<string id="insertbar/modx/path/export"									value="Export" />
+	<string id="insertbar/modx/path/import"									value="Import" />
+	<string id="insertbar/modx/path/modules"								value="Modules" />
+	<string id="insertbar/modx/path/plugins"								value="Plugins" />
+	<string id="insertbar/modx/path/site"									value="Site" />
+	<string id="insertbar/modx/path/snippets"								value="Snippets" />
+	<string id="insertbar/modx/path/templates"								value="Templates" />
+
+
+
+	<!-- Link ================================================== -->
+	<string id="insertbar/modx/link"										value="Link" />
+	<string id="insertbar/modx/link/_help"									value="about:blank" />
+	<string id="insertbar/modx/link/id"										value="ID" />
+
+	<string id="insertbar/modx/link/document"								value="Link&nbsp;(Document)" />
+
+	<string id="insertbar/modx/link/current"								value="Current document" />
+	<string id="insertbar/modx/link/parent"									value="Parent document" />
+	<string id="insertbar/modx/link/site_start"								value="Site start" />
+	<string id="insertbar/modx/link/error_page"								value="Error page" />
+	<string id="insertbar/modx/link/unauthorized_page"						value="Unauthorized page" />
+	<string id="insertbar/modx/link/site_unavailable_page"					value="Site unavailable page" />
+
+
+
+	<!-- Snippeet ================================================== -->
+	<string id="insertbar/modx/snippet"										value="Snippet" />
+	<string id="insertbar/modx/snippet/cache"								value="Cache?" />
+	<string id="insertbar/modx/snippet/name"								value="Snippet&nbsp;name" />
+	<string id="insertbar/modx/snippet/parameter"							value="Parameter" />
+
+	<string id="insertbar/modx/snippet/builtin"								value="Snippet&nbsp;(Built-in)" />
+	<string id="insertbar/modx/snippet/popular"								value="Snippet&nbsp;(Popular)" />
+
+	<!-- AjaxSearch -->
+	<string id="insertbar/modx/snippet/AjaxSearch"							value="AjaxSearch&nbsp;1.7.1" />
+	<string id="insertbar/modx/snippet/AjaxSearch/_help"					value="http://wiki.modxcms.com/index.php/AjaxSearch" />
+	<string id="insertbar/modx/snippet/AjaxSearch/config"					value="config" />
+	<string id="insertbar/modx/snippet/AjaxSearch/language"					value="language (default:&nbsp;manager_language)" />
+	<string id="insertbar/modx/snippet/AjaxSearch/ajaxSearch"				value="ajaxSearch" />
+	<string id="insertbar/modx/snippet/AjaxSearch/AS_showForm"				value="AS_showForm" />
+	<string id="insertbar/modx/snippet/AjaxSearch/AS_showResults"			value="AS_showResults" />
+	<string id="insertbar/modx/snippet/AjaxSearch/advSearch"				value="advSearch" />
+	<string id="insertbar/modx/snippet/AjaxSearch/advSearch/exactphrase"	value="Exact&nbsp;phrase" />
+	<string id="insertbar/modx/snippet/AjaxSearch/advSearch/allwords"		value="All&nbsp;words" />
+	<string id="insertbar/modx/snippet/AjaxSearch/advSearch/nowords"		value="No&nbsp;words" />
+	<string id="insertbar/modx/snippet/AjaxSearch/advSearch/oneword"		value="One&nbsp;words" />
+	<string id="insertbar/modx/snippet/AjaxSearch/hideMenu"					value="hideMenu" />
+	<string id="insertbar/modx/snippet/AjaxSearch/hideMenu/0"				value="Search&nbsp;only&nbsp;in&nbsp;visible&nbsp;from&nbsp;menu" />
+	<string id="insertbar/modx/snippet/AjaxSearch/hideMenu/1"				value="Search&nbsp;only&nbsp;in&nbsp;hidden&nbsp;from&nbsp;menu" />
+	<string id="insertbar/modx/snippet/AjaxSearch/hideMenu/2"				value="Search&nbsp;in&nbsp;hidden/visible&nbsp;from&nbsp;menu" />
+	<string id="insertbar/modx/snippet/AjaxSearch/extract"					value="extract" />
+	<string id="insertbar/modx/snippet/AjaxSearch/extractLength"			value="extractLength" />
+	<string id="insertbar/modx/snippet/AjaxSearch/parents"					value="parents (default:&nbsp;All&nbsp;parent&nbsp;documents)" />
+	<string id="insertbar/modx/snippet/AjaxSearch/depth"					value="depth" />
+	<string id="insertbar/modx/snippet/AjaxSearch/documents"				value="documents (default:&nbsp;false)" />
+	<string id="insertbar/modx/snippet/AjaxSearch/AjaxParameters"			value="Ajax&nbsp;parameters" />
+	<string id="insertbar/modx/snippet/AjaxSearch/ajaxMax"					value="ajaxMax" />
+	<string id="insertbar/modx/snippet/AjaxSearch/showMoreResults"			value="showMoreResults" />
+	<string id="insertbar/modx/snippet/AjaxSearch/moreResultsPage"			value="moreResultsPage" />
+	<string id="insertbar/modx/snippet/AjaxSearch/ajaxSearchType"			value="ajaxSearchType" />
+	<string id="insertbar/modx/snippet/AjaxSearch/ajaxSearchType/0"			value="Display&nbsp;form&nbsp;button" />
+	<string id="insertbar/modx/snippet/AjaxSearch/ajaxSearchType/1"			value="Live&nbsp;search" />
+	<string id="insertbar/modx/snippet/AjaxSearch/opacity"					value="opacity" />
+	<string id="insertbar/modx/snippet/AjaxSearch/addJscript"				value="addJscript" />
+	<string id="insertbar/modx/snippet/AjaxSearch/NonAjaxParameters"		value="Non&nbsp;Ajax&nbsp;parameters" />
+	<string id="insertbar/modx/snippet/AjaxSearch/AS_landing"				value="AS_landing" />
+	<string id="insertbar/modx/snippet/AjaxSearch/grabMax"					value="grabMax" />
+
+	<!-- Breadcrumbs -->
+	<string id="insertbar/modx/snippet/Breadcrumbs"							value="Breadcrumbs&nbsp;0.9g" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/_help"					value="http://wiki.modxcms.com/index.php/Breadcrumbs" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/maxCrumbs"				value="maxCrumbs" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/pathThruUnPub"			value="pathThruUnPub" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/respectHidemenu"			value="respectHidemenu" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/showHomeCrumb"			value="showHomeCrumb" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/showCrumbsAtHome"		value="showCrumbsAtHome" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/showCurrentCrumb"		value="showCurrentCrumb" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/showCrumbsAsLinks"		value="showCrumbsAsLinks" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/currentAsLink"			value="currentAsLink" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/crumbSeparator"			value="crumbSeparator" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/homeCrumbTitle"			value="homeCrumbTitle" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/homeCrumbDescription"	value="homeCrumbDescription (default:&nbsp;homeCrumbTitle)" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/titleField"				value="titleField" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/descField"				value="descField" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/homePageId"				value="homePageId (default:&nbsp;Site start)" />
+
+
+
+
+
+	<string id="insertbar/modx/snippet/Ditto"								value="Ditto&nbsp;" />
+	<string id="insertbar/modx/snippet/Ditto/_help"							value="http://ditto.modxcms.com/files/snippet-ditto-php.html" />
+	<string id="insertbar/modx/snippet/Ditto/"								value="" />
+
+
+
+	<string id="insertbar/modx/snippet/eForm"								value="eForm&nbsp;" />
+	<string id="insertbar/modx/snippet/eForm/_help"							value="http://wiki.modxcms.com/index.php/EForm" />
+	<string id="insertbar/modx/snippet/eForm/"								value="" />
+
+
+
+
+
+	<!-- FirstChildRedirect -->
+	<string id="insertbar/modx/snippet/FirstChildRedirect"					value="FirstChildRedirect&nbsp;1.1" />
+	<string id="insertbar/modx/snippet/FirstChildRedirect/_help"			value="http://modxcms.com/FirstChildRedirect-834.html" />
+	<string id="insertbar/modx/snippet/FirstChildRedirect/docid"			value="docid (default:&nbsp;Current&nbsp;document" />
+
+
+
+
+
+
+	<string id="insertbar/modx/snippet/Jot"									value="Jot&nbsp;1.1.3" />
+	<string id="insertbar/modx/snippet/Jot/_help"							value="http://wiki.modxcms.com/index.php/Jot" />
+	<string id="insertbar/modx/snippet/Jot/"								value="" />
+	<string id="insertbar/modx/snippet/Jot/"								value="" />
+	<string id="insertbar/modx/snippet/Jot/"								value="" />
+	<string id="insertbar/modx/snippet/Jot/"								value="" />
+
+
+
+
+
+
+
+	<string id="insertbar/modx/snippet/ListIndexer"							value="ListIndexer&nbsp;1.0" />
+	<string id="insertbar/modx/snippet/ListIndexer/_help"					value="about:blank" />
+	<string id="insertbar/modx/snippet/ListIndexer/"						value="" />
+	<string id="insertbar/modx/snippet/ListIndexer/"						value="" />
+	<string id="insertbar/modx/snippet/ListIndexer/"						value="" />
+	<string id="insertbar/modx/snippet/ListIndexer/"						value="" />
+	<string id="insertbar/modx/snippet/ListIndexer/"						value="" />
+	<string id="insertbar/modx/snippet/ListIndexer/"						value="" />
+
+
+
+
+
+
+	<!-- MemberCheck -->
+	<string id="insertbar/modx/snippet/MemberCheck"							value="MemberCheck&nbsp;1.0" />
+	<string id="insertbar/modx/snippet/MemberCheck/_help"					value="http://wiki.modxcms.com/index.php/MemberCheck" />
+	<string id="insertbar/modx/snippet/MemberCheck/groups"					value="groups (REQUIRED)" />
+	<string id="insertbar/modx/snippet/MemberCheck/chunk"					value="chunk (REQUIRED)" />
+	<string id="insertbar/modx/snippet/MemberCheck/ph"						value="ph" />
+	<string id="insertbar/modx/snippet/MemberCheck/debug"					value="debug" />
+
+
+
+
+
+
+	<string id="insertbar/modx/snippet/NewsPublisher"						value="NewsPublisher&nbsp;1.4" />
+	<string id="insertbar/modx/snippet/NewsPublisher/_help"					value="http://wiki.modxcms.com/index.php/NewsPublisher" />
+	<string id="insertbar/modx/snippet/NewsPublisher/"						value="" />
+	<string id="insertbar/modx/snippet/NewsPublisher/"						value="" />
+	<string id="insertbar/modx/snippet/NewsPublisher/"						value="" />
+	<string id="insertbar/modx/snippet/NewsPublisher/"						value="" />
+	<string id="insertbar/modx/snippet/NewsPublisher/"						value="" />
+
+
+
+
+
+
+	<!-- Personalize -->
+	<string id="insertbar/modx/snippet/Personalize"							value="Personalize&nbsp;2.0" />
+	<string id="insertbar/modx/snippet/Personalize/_help"					value="about:blank" />
+	<string id="insertbar/modx/snippet/Personalize/yesChunk"				value="yesChunk (REQUIRED)" />
+	<string id="insertbar/modx/snippet/Personalize/noChunk"					value="noChunk (REQUIRED)" />
+	<string id="insertbar/modx/snippet/Personalize/ph"						value="ph" />
+
+
+
+
+
+	<string id="insertbar/modx/snippet/Reflect"								value="Reflect&nbsp;2.1.0" />
+	<string id="insertbar/modx/snippet/Reflect/_help"						value="http://ditto.modxcms.com/files/snippet-reflect-php.html" />
+
+
+
+
+
+	<!-- UltimateParent -->
+	<string id="insertbar/modx/snippet/UltimateParent"						value="UltimateParent&nbsp;2.0&nbsp;beta" />
+	<string id="insertbar/modx/snippet/UltimateParent/_help"				value="about:blank" />
+	<string id="insertbar/modx/snippet/UltimateParent/top"					value="top" />
+	<string id="insertbar/modx/snippet/UltimateParent/id"					value="id (default:&nbsp;Current&nbsp;document" />
+	<string id="insertbar/modx/snippet/UltimateParent/topLevel"				value="topLevel" />
+
+
+
+
+
+	<string id="insertbar/modx/snippet/Wayfinder"							value="Wayfinder" />
+
+
+
+
+
+    <!-- WebChangePwd -->
+	<string id="insertbar/modx/snippet/WebChangePwd"						value="WebChangePwd&nbsp;1.0" />
+	<string id="insertbar/modx/snippet/WebChangePwd/_help"					value="about:blank" />
+	<string id="insertbar/modx/snippet/WebChangePwd/tpl"					value="tpl" />
+
+    <!-- WebLogin -->
+	<string id="insertbar/modx/snippet/WebLogin"							value="WebLogin&nbsp;1.0" />
+	<string id="insertbar/modx/snippet/WebLogin/_help"						value="about:blank" />
+	<string id="insertbar/modx/snippet/WebLogin/loginhomeid"				value="loginhomeid (default:&nbsp;Login&nbsp;home&nbsp;page,&nbsp;Current&nbsp;document)" />
+	<string id="insertbar/modx/snippet/WebLogin/logouthomeid"				value="logouthomeid (default:&nbsp;Current&nbsp;document)" />
+	<string id="insertbar/modx/snippet/WebLogin/pwdreqid"					value="pwdreqid" />
+	<string id="insertbar/modx/snippet/WebLogin/pwdactid"					value="pwdactid" />
+	<string id="insertbar/modx/snippet/WebLogin/logintext"					value="logintext" />
+	<string id="insertbar/modx/snippet/WebLogin/logouttext"					value="logouttext" />
+	<string id="insertbar/modx/snippet/WebLogin/tpl"						value="tpl" />
+
+    <!-- WebSignup -->
+	<string id="insertbar/modx/snippet/WebSignup"							value="WebSignup&nbsp;1.1" />
+	<string id="insertbar/modx/snippet/WebSignup/_help"						value="about:blank" />
+	<string id="insertbar/modx/snippet/WebSignup/tpl"						value="tpl" />
+	<string id="insertbar/modx/snippet/WebSignup/useCaptcha"				value="useCaptcha" />
+	<string id="insertbar/modx/snippet/WebSignup/useCaptcha/config"			value="Config:&nbsp;Use&nbsp;CAPTCHA&nbsp;codes" />
+	<string id="insertbar/modx/snippet/WebSignup/groups"					value="groups" />
+
+
+
+
+
+
+	<string id="insertbar/modx/snippet/GetField"							value="GetField" />
+	<string id="insertbar/modx/snippet/GetField/_help"						value="http://www.modxcms.com/getField-667.html" />
+	<string id="insertbar/modx/snippet/GetField/docid"						value="Document&nbsp;ID" />
+	<string id="insertbar/modx/snippet/GetField/field"						value="Field&nbsp;or&nbsp;TV&nbsp;name" />
+	<string id="insertbar/modx/snippet/GetField/parent"						value="Parent?" />
+	<string id="insertbar/modx/snippet/GetField/parentLevel"				value="Parent&nbsp;level" />
+	<string id="insertbar/modx/snippet/GetField/topid"						value="Top&nbsp;ID" />
+
+
+
+	<!-- Template Variable ================================================== -->
+	<string id="insertbar/modx/tv"											value="Template&nbsp;Variable" />
+	<string id="insertbar/modx/tv/_help"									value="http://www.modxcms.com/document-tvs.html" />
+	<string id="insertbar/modx/tv/name"										value="Template&nbsp;Variable&nbsp;name" />
+
+	<string id="insertbar/modx/tv/general"									value="Template&nbsp;Variable&nbsp;(General)" />
+	<string id="insertbar/modx/tv/pagesettings"								value="Template&nbsp;Variable&nbsp;(Page&nbsp;Settings)" />
+	<string id="insertbar/modx/tv/metakeywords"								value="Template&nbsp;Variable&nbsp;(META&nbsp;Keywords)" />
+	<string id="insertbar/modx/tv/status"									value="Template&nbsp;Variable&nbsp;(Status)" />
+
+	<string id="insertbar/modx/tv/id"										value="Document&nbsp;ID" />
+	<string id="insertbar/modx/tv/pagetitle"								value="Title" />
+	<string id="insertbar/modx/tv/longtitle"								value="Long&nbsp;title" />
+	<string id="insertbar/modx/tv/description"								value="Description" />
+	<string id="insertbar/modx/tv/type"										value="Type" />
+	<string id="insertbar/modx/tv/alias"									value="Document's&nbsp;alias" />
+	<string id="insertbar/modx/tv/link_attributes"							value="Link&nbsp;Attributes" />
+	<string id="insertbar/modx/tv/introtext"								value="Summary&nbsp;(introtext)" />
+	<string id="insertbar/modx/tv/template"									value="Uses&nbsp;template" />
+	<string id="insertbar/modx/tv/menutitle"								value="Menu&nbsp;title" />
+	<string id="insertbar/modx/tv/menuindex"								value="Menu&nbsp;index" />
+	<string id="insertbar/modx/tv/parent"									value="Document&nbsp;parent" />
+	<string id="insertbar/modx/tv/hidemenu"									value="Hide&nbsp;from&nbsp;menu?" />
+	<string id="insertbar/modx/tv/content"									value="Document&nbsp;content" />
+
+	<string id="insertbar/modx/tv/isfolder"									value="Container?" />
+	<string id="insertbar/modx/tv/richtext"									value="Rich&nbsp;text?" />
+	<string id="insertbar/modx/tv/donthit"									value="Don't&nbsp;log&nbsp;visits?" />
+	<string id="insertbar/modx/tv/published"								value="Published?" />
+	<string id="insertbar/modx/tv/pub_date"									value="Publish&nbsp;date" />
+	<string id="insertbar/modx/tv/unpub_date"								value="Un-publish&nbsp;date" />
+	<string id="insertbar/modx/tv/searchable"								value="Searchable?" />
+	<string id="insertbar/modx/tv/cacheable"								value="Cacheable?" />
+	<string id="insertbar/modx/tv/syncsite"									value="Empty&nbsp;cache?" />
+	<string id="insertbar/modx/tv/contentType"								value="Content&nbsp;Type" />
+	<string id="insertbar/modx/tv/contentdispo"								value="Content&nbsp;Disposition" />
+
+	<string id="insertbar/modx/tv/keywords"									value="Keywords" />
+	<string id="insertbar/modx/tv/metatags"									value="Meta&nbsp;tags" />
+
+	<string id="insertbar/modx/tv/createdby"								value="Create&nbsp;user" />
+	<string id="insertbar/modx/tv/createdon"								value="Create&nbsp;date" />
+	<string id="insertbar/modx/tv/editedby"									value="Edit&nbsp;user" />
+	<string id="insertbar/modx/tv/editedon"									value="Edit&nbsp;date" />
+	<string id="insertbar/modx/tv/deleted"									value="Deleted?" />
+	<string id="insertbar/modx/tv/deletedby"								value="Delete&nbsp;user" />
+	<string id="insertbar/modx/tv/deletedon"								value="Delete&nbsp;date" />
+	<string id="insertbar/modx/tv/haskeywords"								value="Has&nbsp;keywords?" />
+	<string id="insertbar/modx/tv/hasmetatags"								value="Has&nbsp;Meta&nbsp;tags?" />
+	<string id="insertbar/modx/tv/privateweb"								value="Private&nbsp;web&nbsp;document&nbsp;group?" />
+	<string id="insertbar/modx/tv/privatemgr"								value="Private&nbsp;manager&nbsp;document&nbsp;group?" />
+
+
+
+	<!-- Chunk ================================================== -->
+	<string id="insertbar/modx/chunk"										value="Chunk" />
+	<string id="insertbar/modx/chunk/_help"									value="http://modxcms.com/chunks.html" />
+	<string id="insertbar/modx/chunk/name"									value="Chunk&nbsp;name" />
+
+
+
+	<!-- Place holder ================================================== -->
+	<string id="insertbar/modx/placeholder"									value="Placeholder" />
+	<string id="insertbar/modx/placeholder/_help"							value="about:blank" />
+	<string id="insertbar/modx/placeholder/name"							value="Placeholder&nbsp;name" />
+
+
+
+	<!-- Setting ================================================== -->
+	<string id="insertbar/modx/setting"										value="Setting" />
+	<string id="insertbar/modx/setting/_help"								value="about:blank" />
+
+
+
+	<!-- Timing ================================================== -->
+	<string id="insertbar/modx/timing"										value="Timing" />
+	<string id="insertbar/modx/timing/_help"								value="about:blank" />
+
+	<string id="insertbar/modx/timing/qt"									value="Query&nbsp;Time" />
+	<string id="insertbar/modx/timing/q"									value="Query&nbsp;Count" />
+	<string id="insertbar/modx/timing/p"									value="Parse&nbsp;Time" />
+	<string id="insertbar/modx/timing/t"									value="Total&nbsp;Time" />
+	<string id="insertbar/modx/timing/s"									value="Source" />
 </strings>
