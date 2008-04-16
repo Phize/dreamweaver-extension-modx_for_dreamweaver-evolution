@@ -34,17 +34,18 @@
 
 	<string id="insertbar/modx/link/document"								value="Link&nbsp;(Document)" />
 
-	<string id="insertbar/modx/link/current"								value="Current document" />
-	<string id="insertbar/modx/link/parent"									value="Parent document" />
-	<string id="insertbar/modx/link/site_start"								value="Site start" />
-	<string id="insertbar/modx/link/error_page"								value="Error page" />
-	<string id="insertbar/modx/link/unauthorized_page"						value="Unauthorized page" />
-	<string id="insertbar/modx/link/site_unavailable_page"					value="Site unavailable page" />
+	<string id="insertbar/modx/link/current"								value="Current&nbsp;document" />
+	<string id="insertbar/modx/link/parent"									value="Parent&nbsp;document" />
+	<string id="insertbar/modx/link/site_start"								value="Site&nbsp;start" />
+	<string id="insertbar/modx/link/error_page"								value="Error&nbsp;page" />
+	<string id="insertbar/modx/link/unauthorized_page"						value="Unauthorized&nbsp;page" />
+	<string id="insertbar/modx/link/site_unavailable_page"					value="Site&nbsp;unavailable page" />
 
 
 
 	<!-- Snippeet ================================================== -->
 	<string id="insertbar/modx/snippet"										value="Snippet" />
+	<string id="insertbar/modx/snippet/_help"								value="http://modxcms.com/snippets.html" />
 	<string id="insertbar/modx/snippet/cache"								value="Cache?" />
 	<string id="insertbar/modx/snippet/name"								value="Snippet&nbsp;name" />
 	<string id="insertbar/modx/snippet/parameter"							value="Parameter" />
@@ -56,7 +57,7 @@
 	<string id="insertbar/modx/snippet/AjaxSearch"							value="AjaxSearch&nbsp;1.7.1" />
 	<string id="insertbar/modx/snippet/AjaxSearch/_help"					value="http://wiki.modxcms.com/index.php/AjaxSearch" />
 	<string id="insertbar/modx/snippet/AjaxSearch/config"					value="config" />
-	<string id="insertbar/modx/snippet/AjaxSearch/language"					value="language (default:&nbsp;manager_language)" />
+	<string id="insertbar/modx/snippet/AjaxSearch/language"					value="language (default:&nbsp;Config-&gt;Language)" />
 	<string id="insertbar/modx/snippet/AjaxSearch/ajaxSearch"				value="ajaxSearch" />
 	<string id="insertbar/modx/snippet/AjaxSearch/AS_showForm"				value="AS_showForm" />
 	<string id="insertbar/modx/snippet/AjaxSearch/AS_showResults"			value="AS_showResults" />
@@ -103,7 +104,7 @@
 	<string id="insertbar/modx/snippet/Breadcrumbs/homeCrumbDescription"	value="homeCrumbDescription (default:&nbsp;homeCrumbTitle)" />
 	<string id="insertbar/modx/snippet/Breadcrumbs/titleField"				value="titleField" />
 	<string id="insertbar/modx/snippet/Breadcrumbs/descField"				value="descField" />
-	<string id="insertbar/modx/snippet/Breadcrumbs/homePageId"				value="homePageId (default:&nbsp;Site start)" />
+	<string id="insertbar/modx/snippet/Breadcrumbs/homePageId"				value="homePageId (default:&nbsp;Config-&gt;Site start)" />
 
 
 
@@ -242,7 +243,7 @@
 	<string id="insertbar/modx/snippet/WebSignup/_help"						value="about:blank" />
 	<string id="insertbar/modx/snippet/WebSignup/tpl"						value="tpl" />
 	<string id="insertbar/modx/snippet/WebSignup/useCaptcha"				value="useCaptcha" />
-	<string id="insertbar/modx/snippet/WebSignup/useCaptcha/config"			value="Config:&nbsp;Use&nbsp;CAPTCHA&nbsp;codes" />
+	<string id="insertbar/modx/snippet/WebSignup/useCaptcha/config"			value="Config-&gt;Use&nbsp;CAPTCHA&nbsp;codes" />
 	<string id="insertbar/modx/snippet/WebSignup/groups"					value="groups" />
 
 
@@ -275,15 +276,15 @@
 	<string id="insertbar/modx/tv/longtitle"								value="Long&nbsp;title" />
 	<string id="insertbar/modx/tv/description"								value="Description" />
 	<string id="insertbar/modx/tv/type"										value="Type" />
-	<string id="insertbar/modx/tv/alias"									value="Document's&nbsp;alias" />
+	<string id="insertbar/modx/tv/alias"									value="Alias" />
 	<string id="insertbar/modx/tv/link_attributes"							value="Link&nbsp;Attributes" />
 	<string id="insertbar/modx/tv/introtext"								value="Summary&nbsp;(introtext)" />
-	<string id="insertbar/modx/tv/template"									value="Uses&nbsp;template" />
+	<string id="insertbar/modx/tv/template"									value="Template&nbsp;ID" />
 	<string id="insertbar/modx/tv/menutitle"								value="Menu&nbsp;title" />
 	<string id="insertbar/modx/tv/menuindex"								value="Menu&nbsp;index" />
-	<string id="insertbar/modx/tv/parent"									value="Document&nbsp;parent" />
+	<string id="insertbar/modx/tv/parent"									value="Parent&nbsp;document&nbsp;ID" />
 	<string id="insertbar/modx/tv/hidemenu"									value="Hide&nbsp;from&nbsp;menu?" />
-	<string id="insertbar/modx/tv/content"									value="Document&nbsp;content" />
+	<string id="insertbar/modx/tv/content"									value="Content" />
 
 	<string id="insertbar/modx/tv/isfolder"									value="Container?" />
 	<string id="insertbar/modx/tv/richtext"									value="Rich&nbsp;text?" />
@@ -300,13 +301,13 @@
 	<string id="insertbar/modx/tv/keywords"									value="Keywords" />
 	<string id="insertbar/modx/tv/metatags"									value="Meta&nbsp;tags" />
 
-	<string id="insertbar/modx/tv/createdby"								value="Create&nbsp;user" />
-	<string id="insertbar/modx/tv/createdon"								value="Create&nbsp;date" />
-	<string id="insertbar/modx/tv/editedby"									value="Edit&nbsp;user" />
-	<string id="insertbar/modx/tv/editedon"									value="Edit&nbsp;date" />
+	<string id="insertbar/modx/tv/createdby"								value="Created&nbsp;by" />
+	<string id="insertbar/modx/tv/createdon"								value="Created&nbsp;on" />
+	<string id="insertbar/modx/tv/editedby"									value="Edited&nbsp;by" />
+	<string id="insertbar/modx/tv/editedon"									value="Edited&nbsp;on" />
 	<string id="insertbar/modx/tv/deleted"									value="Deleted?" />
-	<string id="insertbar/modx/tv/deletedby"								value="Delete&nbsp;user" />
-	<string id="insertbar/modx/tv/deletedon"								value="Delete&nbsp;date" />
+	<string id="insertbar/modx/tv/deletedby"								value="Deleted&nbsp;by" />
+	<string id="insertbar/modx/tv/deletedon"								value="Deleted&nbsp;on" />
 	<string id="insertbar/modx/tv/haskeywords"								value="Has&nbsp;keywords?" />
 	<string id="insertbar/modx/tv/hasmetatags"								value="Has&nbsp;Meta&nbsp;tags?" />
 	<string id="insertbar/modx/tv/privateweb"								value="Private&nbsp;web&nbsp;document&nbsp;group?" />
