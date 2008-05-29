@@ -5,7 +5,7 @@
 
 
 function objectTag() {
-	var _name = 'SName';
+	var _name = 'captcha_words';
 
 	return '[(' + _name + ')]';
 }
