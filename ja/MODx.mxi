@@ -1,0 +1,633 @@
+<macromedia-extension name="MODx for Dreamweaver" version="1.0.0" type="suite" requires-restart="true">
+  <author name="Phize" />
+
+  <products>
+    <product name="Dreamweaver" version="6" primary="true" />
+  </products>
+
+  <description>
+    <![CDATA[ MODx for Dreamweaver ]]>
+  </description>
+
+  <ui-access>
+    <![CDATA[ MODx InsertBar + MODx CodeHints ]]>
+  </ui-access>
+
+  <license-agreement>
+    <![CDATA[ Copyright(C) 2008 Phize
+http://phize.net ]]>
+  </license-agreement>
+
+  <files>
+    <!-- MODx CodeHints -->
+    <file source="CodeHints/CodeHints/MODxCodeHints.xml" destination="$dreamweaver/configuration/CodeHints" />
+    <file source="CodeHints/Objects/MODxCodeHints/CodeHints.png" destination="$dreamweaver/configuration/Objects/MODxCodeHints" />
+
+
+
+
+
+    <!-- MODx InsertBar -->
+    <file source="InsertBar/Strings/insertbarMODxStrings.xml" destination="$dreamweaver/configuration/Strings" />
+    <file source="InsertBar/Objects/MODx/common.css" destination="$dreamweaver/configuration/Objects/MODx" />
+    <file source="InsertBar/Objects/MODx/common.js" destination="$dreamweaver/configuration/Objects/MODx" />
+
+    <file source="InsertBar/Objects/MODx/chunk/chunk.htm" destination="$dreamweaver/configuration/Objects/MODx/chunk" />
+    <file source="InsertBar/Objects/MODx/chunk/chunk.js" destination="$dreamweaver/configuration/Objects/MODx/chunk" />
+    <file source="InsertBar/Objects/MODx/chunk/chunk.png" destination="$dreamweaver/configuration/Objects/MODx/chunk" />
+
+    <file source="InsertBar/Objects/MODx/link/current.htm" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/current.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/error_page.htm" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/error_page.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/link.htm" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/link.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/link.png" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/link_common.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/parent.htm" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/parent.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/site_start.htm" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/site_start.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/site_unavailable_page.htm" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/site_unavailable_page.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/unauthorized_page.htm" destination="$dreamweaver/configuration/Objects/MODx/link" />
+    <file source="InsertBar/Objects/MODx/link/unauthorized_page.js" destination="$dreamweaver/configuration/Objects/MODx/link" />
+
+    <file source="InsertBar/Objects/MODx/path/assets.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/assets.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/cache.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/cache.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/docs.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/docs.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/export.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/export.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/files.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/files.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/flash.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/flash.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/images.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/images.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/import.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/import.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/js.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/js.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/media.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/media.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/modules.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/modules.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/path.png" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/path_common.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/plugins.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/plugins.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/site.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/site.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/snippets.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/snippets.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/templates.htm" destination="$dreamweaver/configuration/Objects/MODx/path" />
+    <file source="InsertBar/Objects/MODx/path/templates.js" destination="$dreamweaver/configuration/Objects/MODx/path" />
+
+    <file source="InsertBar/Objects/MODx/placeholder/placeholder.htm" destination="$dreamweaver/configuration/Objects/MODx/placeholder" />
+    <file source="InsertBar/Objects/MODx/placeholder/placeholder.js" destination="$dreamweaver/configuration/Objects/MODx/placeholder" />
+    <file source="InsertBar/Objects/MODx/placeholder/placeholder.png" destination="$dreamweaver/configuration/Objects/MODx/placeholder" />
+
+    <file source="InsertBar/Objects/MODx/setting/allow_duplicate_alias.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/allow_duplicate_alias.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/auto_menuindex.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/auto_menuindex.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/automatic_alias.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/automatic_alias.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/base_path.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/base_path.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/base_url.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/base_url.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/blocked_minutes.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/blocked_minutes.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/cache_default.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/cache_default.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/captcha_words.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/captcha_words.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/custom_contenttype.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/custom_contenttype.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/default_template.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/default_template.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/editor_css_path.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/editor_css_path.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/emailsender.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/emailsender.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/emailsubject.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/emailsubject.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/error_page.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/error_page.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/failed_login_attempts.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/failed_login_attempts.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/fe_editor_lang.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/fe_editor_lang.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/filemanager_path.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/filemanager_path.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_alias_urls.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_alias_urls.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_url_prefix.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_url_prefix.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_url_suffix.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_url_suffix.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_urls.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/friendly_urls.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/mail_check_timeperiod.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/mail_check_timeperiod.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_direction.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_direction.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_lang_attribute.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_lang_attribute.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_language.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_language.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_theme.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/manager_theme.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/modx_charset.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/modx_charset.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/new_file_permissions.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/new_file_permissions.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/new_folder_permissions.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/new_folder_permissions.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/number_of_logs.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/number_of_logs.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/number_of_messages.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/number_of_messages.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/number_of_results.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/number_of_results.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/publish_default.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/publish_default.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/rb_base_dir.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/rb_base_dir.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/rb_base_url.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/rb_base_url.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/resolve_hostnames.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/resolve_hostnames.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/search_default.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/search_default.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/server_offset_time.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/server_offset_time.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/server_protocol.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/server_protocol.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/setting.png" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/setting_common.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/settings_version.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/settings_version.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/show_preview.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/show_preview.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/signupemail_message.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/signupemail_message.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_id.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_id.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_name.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_name.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_start.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_start.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_status.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_status.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_unavailable_message.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_unavailable_message.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_unavailable_page.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_unavailable_page.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_url.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/site_url.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/strip_image_paths.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/strip_image_paths.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_css_selectors.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_css_selectors.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons1.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons1.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons2.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons2.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons3.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons3.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons4.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_buttons4.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_plugins.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_custom_plugins.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_editor_theme.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tinymce_editor_theme.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/top_howmany.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/top_howmany.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/track_visitors.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/track_visitors.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tree_show_protected.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/tree_show_protected.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/udperms_allowroot.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/udperms_allowroot.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/unauthorized_page.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/unauthorized_page.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_files.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_files.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_flash.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_flash.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_images.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_images.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_maxsize.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_maxsize.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_media.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/upload_media.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_alias_path.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_alias_path.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_browser.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_browser.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_captcha.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_captcha.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_editor.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_editor.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_udperms.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/use_udperms.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/webpwdreminder_message.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/webpwdreminder_message.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/websignupemail_message.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/websignupemail_message.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/which_editor.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/which_editor.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/xhtml_urls.htm" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+    <file source="InsertBar/Objects/MODx/setting/xhtml_urls.js" destination="$dreamweaver/configuration/Objects/MODx/setting" />
+
+    <file source="InsertBar/Objects/MODx/snippet/snippet.htm" destination="$dreamweaver/configuration/Objects/MODx/snippet" />
+    <file source="InsertBar/Objects/MODx/snippet/snippet.js" destination="$dreamweaver/configuration/Objects/MODx/snippet" />
+    <file source="InsertBar/Objects/MODx/snippet/snippet.png" destination="$dreamweaver/configuration/Objects/MODx/snippet" />
+
+    <file source="InsertBar/Objects/MODx/timing/p.htm" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/p.js" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/q.htm" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/q.js" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/qt.htm" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/qt.js" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/s.htm" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/s.js" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/t.htm" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/t.js" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/timing.png" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+    <file source="InsertBar/Objects/MODx/timing/timing_common.js" destination="$dreamweaver/configuration/Objects/MODx/timing" />
+
+    <file source="InsertBar/Objects/MODx/tv/alias.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/alias.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/cacheable.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/cacheable.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/content.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/content.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/contentType.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/contentType.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/contentdispo.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/contentdispo.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/createdby.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/createdby.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/createdon.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/createdon.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/deleted.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/deleted.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/deletedby.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/deletedby.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/deletedon.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/deletedon.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/description.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/description.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/donthit.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/donthit.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/editedby.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/editedby.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/editedon.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/editedon.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/haskeywords.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/haskeywords.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/hasmetatags.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/hasmetatags.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/hidemenu.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/hidemenu.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/id.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/id.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/introtext.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/introtext.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/isfolder.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/isfolder.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/keywords.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/keywords.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/link_attributes.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/link_attributes.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/longtitle.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/longtitle.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/menuindex.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/menuindex.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/menutitle.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/menutitle.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/metatags.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/metatags.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/pagetitle.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/pagetitle.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/parent.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/parent.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/privatemgr.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/privatemgr.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/privateweb.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/privateweb.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/pub_date.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/pub_date.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/published.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/published.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/richtext.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/richtext.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/searchable.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/searchable.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/syncsite.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/syncsite.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/template.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/template.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/tv.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/tv.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/tv.png" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/tv_common.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/type.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/type.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/unpub_date.htm" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+    <file source="InsertBar/Objects/MODx/tv/unpub_date.js" destination="$dreamweaver/configuration/Objects/MODx/tv" />
+
+
+
+    <configuration-changes>
+      <insertbar-changes>
+        <insertbar-insert>
+          <category id="DW_Insertbar_MODx" name="MODx" folder="MODx">
+            <!-- Path ================================================== -->
+            <menubutton id="DW_MODx_Path" MMString:name="insertbar/modx/path" image="MODx/path/path.png" folder="Path">
+              <button id="DW_MODx_Path_assets" MMString:name="insertbar/modx/path/assets" image="MODx/path/path.png" file="MODx/path/assets.htm" />
+
+
+
+              <button id="DW_MODx_Path_images" MMString:name="insertbar/modx/path/images" image="MODx/path/path.png" file="MODx/path/images.htm" />
+              <button id="DW_MODx_Path_js" MMString:name="insertbar/modx/path/js" image="MODx/path/path.png" file="MODx/path/js.htm" />
+              <button id="DW_MODx_Path_flash" MMString:name="insertbar/modx/path/flash" image="MODx/path/path.png" file="MODx/path/flash.htm" />
+              <button id="DW_MODx_Path_media" MMString:name="insertbar/modx/path/media" image="MODx/path/path.png" file="MODx/path/media.htm" />
+              <button id="DW_MODx_Path_files" MMString:name="insertbar/modx/path/files" image="MODx/path/path.png" file="MODx/path/files.htm" />
+
+
+
+              <button id="DW_MODx_Path_docs" MMString:name="insertbar/modx/path/docs" image="MODx/path/path.png" file="MODx/path/docs.htm" />
+
+
+
+              <button id="DW_MODx_Path_cache" MMString:name="insertbar/modx/path/cache" image="MODx/path/path.png" file="MODx/path/cache.htm" />
+              <button id="DW_MODx_Path_export" MMString:name="insertbar/modx/path/export" image="MODx/path/path.png" file="MODx/path/export.htm" />
+              <button id="DW_MODx_Path_import" MMString:name="insertbar/modx/path/import" image="MODx/path/path.png" file="MODx/path/import.htm" />
+
+
+
+              <button id="DW_MODx_Path_modules" MMString:name="insertbar/modx/path/modules" image="MODx/path/path.png" file="MODx/path/modules.htm" />
+              <button id="DW_MODx_Path_plugins" MMString:name="insertbar/modx/path/plugins" image="MODx/path/path.png" file="MODx/path/plugins.htm" />
+              <button id="DW_MODx_Path_site" MMString:name="insertbar/modx/path/site" image="MODx/path/path.png" file="MODx/path/site.htm" />
+              <button id="DW_MODx_Path_snippets" MMString:name="insertbar/modx/path/snippets" image="MODx/path/path.png" file="MODx/path/snippets.htm" />
+              <button id="DW_MODx_Path_templates" MMString:name="insertbar/modx/path/templates" image="MODx/path/path.png" file="MODx/path/templates.htm" />
+                </menubutton>
+
+
+
+
+
+
+
+            <!-- Link ================================================== -->
+            <menubutton id="DW_MODx_Link_Document" MMString:name="insertbar/modx/link/menu/document" image="MODx/link/link.png" folder="Link (Document)">
+              <button id="DW_MODx_Link_current" MMString:name="insertbar/modx/link/current" image="MODx/link/link.png" file="MODx/link/current.htm" />
+              <button id="DW_MODx_Link_parent" MMString:name="insertbar/modx/link/parent" image="MODx/link/link.png" file="MODx/link/parent.htm" />
+              <button id="DW_MODx_Link_site_start" MMString:name="insertbar/modx/link/site_start" image="MODx/link/link.png" file="MODx/link/site_start.htm" />
+              <button id="DW_MODx_Link_error_page" MMString:name="insertbar/modx/link/error_page" image="MODx/link/link.png" file="MODx/link/error_page.htm" />
+              <button id="DW_MODx_Link_unauthorized_page" MMString:name="insertbar/modx/link/unauthorized_page" image="MODx/link/link.png" file="MODx/link/unauthorized_page.htm" />
+              <button id="DW_MODx_Link_site_unavailable_page" MMString:name="insertbar/modx/link/site_unavailable_page" image="MODx/link/link.png" file="MODx/link/site_unavailable_page.htm" />
+            </menubutton>
+
+            <button id="DW_MODx_Link" MMString:name="insertbar/modx/link" image="MODx/link/link.png" file="MODx/link/link.htm" />
+
+
+
+
+
+
+
+            <!-- Snippet ================================================== -->
+            <button id="DW_MODx_Snippet" MMString:name="insertbar/modx/snippet" image="MODx/snippet/snippet.png" file="MODx/snippet/snippet.htm" />
+
+
+
+
+
+
+
+            <!-- Template Variable ================================================== -->
+            <menubutton id="DW_MODx_TV_General" MMString:name="insertbar/modx/tv/menu/general" image="MODx/tv/tv.png" folder="Template Variable (General)">
+              <button id="DW_MODx_TV_id" MMString:name="insertbar/modx/tv/id" image="MODx/tv/tv.png" file="MODx/tv/id.htm" />
+              <button id="DW_MODx_TV_pagetitle" MMString:name="insertbar/modx/tv/pagetitle" image="MODx/tv/tv.png" file="MODx/tv/pagetitle.htm" />
+              <button id="DW_MODx_TV_longtitle" MMString:name="insertbar/modx/tv/longtitle" image="MODx/tv/tv.png" file="MODx/tv/longtitle.htm" />
+              <button id="DW_MODx_TV_description" MMString:name="insertbar/modx/tv/description" image="MODx/tv/tv.png" file="MODx/tv/description.htm" />
+              <button id="DW_MODx_TV_type" MMString:name="insertbar/modx/tv/type" image="MODx/tv/tv.png" file="MODx/tv/type.htm" />
+              <button id="DW_MODx_TV_alias" MMString:name="insertbar/modx/tv/alias" image="MODx/tv/tv.png" file="MODx/tv/alias.htm" />
+              <button id="DW_MODx_TV_link_attributes" MMString:name="insertbar/modx/tv/link_attributes" image="MODx/tv/tv.png" file="MODx/tv/link_attributes.htm" />
+              <button id="DW_MODx_TV_introtext" MMString:name="insertbar/modx/tv/introtext" image="MODx/tv/tv.png" file="MODx/tv/introtext.htm" />
+              <button id="DW_MODx_TV_template" MMString:name="insertbar/modx/tv/template" image="MODx/tv/tv.png" file="MODx/tv/template.htm" />
+              <button id="DW_MODx_TV_menuindex" MMString:name="insertbar/modx/tv/menuindex" image="MODx/tv/tv.png" file="MODx/tv/menuindex.htm" />
+              <button id="DW_MODx_TV_menutitle" MMString:name="insertbar/modx/tv/menutitle" image="MODx/tv/tv.png" file="MODx/tv/menutitle.htm" />
+              <button id="DW_MODx_TV_parent" MMString:name="insertbar/modx/tv/parent" image="MODx/tv/tv.png" file="MODx/tv/parent.htm" />
+              <button id="DW_MODx_TV_hidemenu" MMString:name="insertbar/modx/tv/hidemenu" image="MODx/tv/tv.png" file="MODx/tv/hidemenu.htm" />
+              <button id="DW_MODx_TV_content" MMString:name="insertbar/modx/tv/content" image="MODx/tv/tv.png" file="MODx/tv/.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_TV_PageSettings" MMString:name="insertbar/modx/tv/menu/pagesettings" image="MODx/tv/tv.png" folder="Template Variable (Page Setting)">
+              <button id="DW_MODx_TV_isfolder" MMString:name="insertbar/modx/tv/isfolder" image="MODx/tv/tv.png" file="MODx/tv/isfolder.htm" />
+              <button id="DW_MODx_TV_richtext" MMString:name="insertbar/modx/tv/richtext" image="MODx/tv/tv.png" file="MODx/tv/richtext.htm" />
+              <button id="DW_MODx_TV_donthit" MMString:name="insertbar/modx/tv/donthit" image="MODx/tv/tv.png" file="MODx/tv/donthit.htm" />
+              <button id="DW_MODx_TV_published" MMString:name="insertbar/modx/tv/published" image="MODx/tv/tv.png" file="MODx/tv/published.htm" />
+              <button id="DW_MODx_TV_pub_date" MMString:name="insertbar/modx/tv/pub_date" image="MODx/tv/tv.png" file="MODx/tv/pub_date.htm" />
+              <button id="DW_MODx_TV_unpub_date" MMString:name="insertbar/modx/tv/unpub_date" image="MODx/tv/tv.png" file="MODx/tv/unpub_date.htm" />
+              <button id="DW_MODx_TV_searchable" MMString:name="insertbar/modx/tv/searchable" image="MODx/tv/tv.png" file="MODx/tv/searchable.htm" />
+              <button id="DW_MODx_TV_cacheable" MMString:name="insertbar/modx/tv/cacheable" image="MODx/tv/tv.png" file="MODx/tv/cacheable.htm" />
+              <button id="DW_MODx_TV_syncsite" MMString:name="insertbar/modx/tv/syncsite" image="MODx/tv/tv.png" file="MODx/tv/syncsite.htm" />
+              <button id="DW_MODx_TV_contentType" MMString:name="insertbar/modx/tv/contentType" image="MODx/tv/tv.png" file="MODx/tv/contentType.htm" />
+              <button id="DW_MODx_TV_contentdispo" MMString:name="insertbar/modx/tv/contentdispo" image="MODx/tv/tv.png" file="MODx/tv/contentdispo.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_TV_MetaKeywords" MMString:name="insertbar/modx/tv/menu/metakeywords" image="MODx/tv/tv.png" folder="Template Variable (META Keywords)">
+              <button id="DW_MODx_TV_keywords" MMString:name="insertbar/modx/tv/keywords" image="MODx/tv/tv.png" file="MODx/tv/keywords.htm" />
+              <button id="DW_MODx_TV_metatags" MMString:name="insertbar/modx/tv/metatags" image="MODx/tv/tv.png" file="MODx/tv/metatags.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_TV_Status" MMString:name="insertbar/modx/tv/menu/status" image="MODx/tv/tv.png" folder="Template Variable (Status)">
+              <button id="DW_MODx_TV_createdby" MMString:name="insertbar/modx/tv/createdby" image="MODx/tv/tv.png" file="MODx/tv/createdby.htm" />
+              <button id="DW_MODx_TV_createdon" MMString:name="insertbar/modx/tv/createdon" image="MODx/tv/tv.png" file="MODx/tv/createdon.htm" />
+              <button id="DW_MODx_TV_editedby" MMString:name="insertbar/modx/tv/editedby" image="MODx/tv/tv.png" file="MODx/tv/editedby.htm" />
+              <button id="DW_MODx_TV_editedon" MMString:name="insertbar/modx/tv/editedon" image="MODx/tv/tv.png" file="MODx/tv/editedon.htm" />
+              <button id="DW_MODx_TV_deleted" MMString:name="insertbar/modx/tv/deleted" image="MODx/tv/tv.png" file="MODx/tv/deleted.htm" />
+              <button id="DW_MODx_TV_deletedby" MMString:name="insertbar/modx/tv/deletedby" image="MODx/tv/tv.png" file="MODx/tv/deletedby.htm" />
+              <button id="DW_MODx_TV_deletedon" MMString:name="insertbar/modx/tv/deletedon" image="MODx/tv/tv.png" file="MODx/tv/deletedon.htm" />
+              <button id="DW_MODx_TV_haskeywords" MMString:name="insertbar/modx/tv/haskeywords" image="MODx/tv/tv.png" file="MODx/tv/haskeywords.htm" />
+              <button id="DW_MODx_TV_hasmetatags" MMString:name="insertbar/modx/tv/hasmetatags" image="MODx/tv/tv.png" file="MODx/tv/hasmetatags.htm" />
+              <button id="DW_MODx_TV_privateweb" MMString:name="insertbar/modx/tv/privateweb" image="MODx/tv/tv.png" file="MODx/tv/privateweb.htm" />
+              <button id="DW_MODx_TV_privatemgr" MMString:name="insertbar/modx/tv/privatemgr" image="MODx/tv/tv.png" file="MODx/tv/privatemgr.htm" />
+            </menubutton>
+
+            <button id="DW_MODx_TV" MMString:name="insertbar/modx/tv" image="MODx/tv/tv.png" file="MODx/tv/tv.htm" />
+
+
+
+
+
+
+
+            <!-- Chunk ================================================== -->
+            <button id="DW_MODx_Chunk" MMString:name="insertbar/modx/chunk" image="MODx/chunk/chunk.png" file="MODx/chunk/chunk.htm" />
+
+
+
+            <!-- Place holder ================================================== -->
+            <button id="DW_MODx_Placeholder" MMString:name="insertbar/modx/placeholder" image="MODx/placeholder/placeholder.png" file="MODx/placeholder/placeholder.htm" />
+
+
+
+
+
+
+
+            <!-- Setting ================================================== -->
+            <menubutton id="DW_MODx_Setting_General" MMString:name="insertbar/modx/setting/menu/general" image="MODx/setting/setting.png" folder="Setting (General)">
+              <button id="DW_MODx_Setting_base_path" MMString:name="insertbar/modx/setting/base_path" image="MODx/setting/setting.png" file="MODx/setting/base_path.htm" />
+              <button id="DW_MODx_Setting_base_url" MMString:name="insertbar/modx/setting/base_url" image="MODx/setting/setting.png" file="MODx/setting/base_url.htm" />
+              <button id="DW_MODx_Setting_site_url" MMString:name="insertbar/modx/setting/site_url" image="MODx/setting/setting.png" file="MODx/setting/site_url.htm" />
+
+
+
+              <button id="DW_MODx_Setting_site_id" MMString:name="insertbar/modx/setting/site_id" image="MODx/setting/setting.png" file="MODx/setting/site_id.htm" />
+              <button id="DW_MODx_Setting_settings_version" MMString:name="insertbar/modx/setting/settings_version" image="MODx/setting/setting.png" file="MODx/setting/settings_version.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_Setting_Site" MMString:name="insertbar/modx/setting/menu/site" image="MODx/setting/setting.png" folder="Setting (Site)">
+              <button id="DW_MODx_Setting_site_name" MMString:name="insertbar/modx/setting/site_name" image="MODx/setting/setting.png" file="MODx/setting/site_name.htm" />
+              <button id="DW_MODx_Setting_manager_language" MMString:name="insertbar/modx/setting/manager_language" image="MODx/setting/setting.png" file="MODx/setting/manager_language.htm" />
+              <button id="DW_MODx_Setting_modx_charset" MMString:name="insertbar/modx/setting/modx_charset" image="MODx/setting/setting.png" file="MODx/setting/modx_charset.htm" />
+              <button id="DW_MODx_Setting_manager_direction" MMString:name="insertbar/modx/setting/manager_direction" image="MODx/setting/setting.png" file="MODx/setting/manager_direction.htm" />
+              <button id="DW_MODx_Setting_manager_lang_attribute" MMString:name="insertbar/modx/setting/manager_lang_attribute" image="MODx/setting/setting.png" file="MODx/setting/manager_lang_attribute.htm" />
+              <button id="DW_MODx_Setting_xhtml_urls" MMString:name="insertbar/modx/setting/xhtml_urls" image="MODx/setting/setting.png" file="MODx/setting/xhtml_urls.htm" />
+
+
+
+              <button id="DW_MODx_Setting_site_start" MMString:name="insertbar/modx/setting/site_start" image="MODx/setting/setting.png" file="MODx/setting/site_start.htm" />
+              <button id="DW_MODx_Setting_error_page" MMString:name="insertbar/modx/setting/error_page" image="MODx/setting/setting.png" file="MODx/setting/error_page.htm" />
+              <button id="DW_MODx_Setting_unauthorized_page" MMString:name="insertbar/modx/setting/unauthorized_page" image="MODx/setting/setting.png" file="MODx/setting/unauthorized_page.htm" />
+              <button id="DW_MODx_Setting_site_status" MMString:name="insertbar/modx/setting/site_status" image="MODx/setting/setting.png" file="MODx/setting/site_status.htm" />
+              <button id="DW_MODx_Setting_site_unavailable_page" MMString:name="insertbar/modx/setting/site_unavailable_page" image="MODx/setting/setting.png" file="MODx/setting/site_unavailable_page.htm" />
+              <button id="DW_MODx_Setting_site_unavailable_message" MMString:name="insertbar/modx/setting/site_unavailable_message" image="MODx/setting/setting.png" file="MODx/setting/site_unavailable_message.htm" />
+
+
+
+              <button id="DW_MODx_Setting_track_visitors" MMString:name="insertbar/modx/setting/track_visitors" image="MODx/setting/setting.png" file="MODx/setting/track_visitors.htm" />
+              <button id="DW_MODx_Setting_resolve_hostnames" MMString:name="insertbar/modx/setting/resolve_hostnames" image="MODx/setting/setting.png" file="MODx/setting/resolve_hostnames.htm" />
+              <button id="DW_MODx_Setting_top_howmany" MMString:name="insertbar/modx/setting/top_howmany" image="MODx/setting/setting.png" file="MODx/setting/top_howmany.htm" />
+
+
+
+              <button id="DW_MODx_Setting_default_template" MMString:name="insertbar/modx/setting/default_template" image="MODx/setting/setting.png" file="MODx/setting/default_template.htm" />
+              <button id="DW_MODx_Setting_publish_default" MMString:name="insertbar/modx/setting/publish_default" image="MODx/setting/setting.png" file="MODx/setting/publish_default.htm" />
+              <button id="DW_MODx_Setting_cache_default" MMString:name="insertbar/modx/setting/cache_default" image="MODx/setting/setting.png" file="MODx/setting/cache_default.htm" />
+              <button id="DW_MODx_Setting_search_default" MMString:name="insertbar/modx/setting/search_default" image="MODx/setting/setting.png" file="MODx/setting/search_default.htm" />
+              <button id="DW_MODx_Setting_auto_menuindex" MMString:name="insertbar/modx/setting/auto_menuindex" image="MODx/setting/setting.png" file="MODx/setting/auto_menuindex.htm" />
+
+
+
+              <button id="DW_MODx_Setting_custom_contenttype" MMString:name="insertbar/modx/setting/custom_contenttype" image="MODx/setting/setting.png" file="MODx/setting/custom_contenttype.htm" />
+              <button id="DW_MODx_Setting_server_offset_time" MMString:name="insertbar/modx/setting/server_offset_time" image="MODx/setting/setting.png" file="MODx/setting/server_offset_time.htm" />
+              <button id="DW_MODx_Setting_server_protocol" MMString:name="insertbar/modx/setting/server_protocol" image="MODx/setting/setting.png" file="MODx/setting/server_protocol.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_Setting_Friendly_URLs" MMString:name="insertbar/modx/setting/menu/friendly_urls" image="MODx/setting/setting.png" folder="Setting (Friendly URLs)">
+              <button id="DW_MODx_Setting_friendly_urls" MMString:name="insertbar/modx/setting/friendly_urls" image="MODx/setting/setting.png" file="MODx/setting/friendly_urls.htm" />
+              <button id="DW_MODx_Setting_friendly_url_prefix" MMString:name="insertbar/modx/setting/friendly_url_prefix" image="MODx/setting/setting.png" file="MODx/setting/friendly_url_prefix.htm" />
+              <button id="DW_MODx_Setting_friendly_url_suffix" MMString:name="insertbar/modx/setting/friendly_url_suffix" image="MODx/setting/setting.png" file="MODx/setting/friendly_url_suffix.htm" />
+              <button id="DW_MODx_Setting_friendly_alias_urls" MMString:name="insertbar/modx/setting/friendly_alias_urls" image="MODx/setting/setting.png" file="MODx/setting/friendly_alias_urls.htm" />
+              <button id="DW_MODx_Setting_use_alias_path" MMString:name="insertbar/modx/setting/use_alias_path" image="MODx/setting/setting.png" file="MODx/setting/use_alias_path.htm" />
+              <button id="DW_MODx_Setting_allow_duplicate_alias" MMString:name="insertbar/modx/setting/allow_duplicate_alias" image="MODx/setting/setting.png" file="MODx/setting/allow_duplicate_alias.htm" />
+              <button id="DW_MODx_Setting_automatic_alias" MMString:name="insertbar/modx/setting/automatic_alias" image="MODx/setting/setting.png" file="MODx/setting/automatic_alias.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_Setting_User" MMString:name="insertbar/modx/setting/menu/user" image="MODx/setting/setting.png" folder="Setting (User)">
+              <button id="DW_MODx_Setting_use_udperms" MMString:name="insertbar/modx/setting/use_udperms" image="MODx/setting/setting.png" file="MODx/setting/use_udperms.htm" />
+              <button id="DW_MODx_Setting_udperms_allowroot" MMString:name="insertbar/modx/setting/udperms_allowroot" image="MODx/setting/setting.png" file="MODx/setting/udperms_allowroot.htm" />
+              <button id="DW_MODx_Setting_failed_login_attempts" MMString:name="insertbar/modx/setting/failed_login_attempts" image="MODx/setting/setting.png" file="MODx/setting/failed_login_attempts.htm" />
+              <button id="DW_MODx_Setting_blocked_minutes" MMString:name="insertbar/modx/setting/blocked_minutes" image="MODx/setting/setting.png" file="MODx/setting/blocked_minutes.htm" />
+              <button id="DW_MODx_Setting_use_captcha" MMString:name="insertbar/modx/setting/use_captcha" image="MODx/setting/setting.png" file="MODx/setting/use_captcha.htm" />
+              <button id="DW_MODx_Setting_captcha_words" MMString:name="insertbar/modx/setting/captcha_words" image="MODx/setting/setting.png" file="MODx/setting/captcha_words.htm" />
+
+
+
+              <button id="DW_MODx_Setting_emailsender" MMString:name="insertbar/modx/setting/emailsender" image="MODx/setting/setting.png" file="MODx/setting/emailsender.htm" />
+              <button id="DW_MODx_Setting_emailsubject" MMString:name="insertbar/modx/setting/emailsubject" image="MODx/setting/setting.png" file="MODx/setting/emailsubject.htm" />
+              <button id="DW_MODx_Setting_signupemail_message" MMString:name="insertbar/modx/setting/signupemail_message" image="MODx/setting/setting.png" file="MODx/setting/signupemail_message.htm" />
+              <button id="DW_MODx_Setting_websignupemail_message" MMString:name="insertbar/modx/setting/websignupemail_message" image="MODx/setting/setting.png" file="MODx/setting/websignupemail_message.htm" />
+              <button id="DW_MODx_Setting_webpwdreminder_message" MMString:name="insertbar/modx/setting/webpwdreminder_message" image="MODx/setting/setting.png" file="MODx/setting/webpwdreminder_message.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_Setting_Interface_Features" MMString:name="insertbar/modx/setting/menu/interface_features" image="MODx/setting/setting.png" folder="Setting (Interface &amp; Features)">
+              <button id="DW_MODx_Setting_manager_theme" MMString:name="insertbar/modx/setting/manager_theme" image="MODx/setting/setting.png" file="MODx/setting/manager_theme.htm" />
+              <button id="DW_MODx_Setting_tree_show_protected" MMString:name="insertbar/modx/setting/tree_show_protected" image="MODx/setting/setting.png" file="MODx/setting/tree_show_protected.htm" />
+              <button id="DW_MODx_Setting_show_preview" MMString:name="insertbar/modx/setting/show_preview" image="MODx/setting/setting.png" file="MODx/setting/show_preview.htm" />
+              <button id="DW_MODx_Setting_number_of_logs" MMString:name="insertbar/modx/setting/number_of_logs" image="MODx/setting/setting.png" file="MODx/setting/number_of_logs.htm" />
+              <button id="DW_MODx_Setting_mail_check_timeperiod" MMString:name="insertbar/modx/setting/mail_check_timeperiod" image="MODx/setting/setting.png" file="MODx/setting/mail_check_timeperiod.htm" />
+              <button id="DW_MODx_Setting_number_of_messages" MMString:name="insertbar/modx/setting/number_of_messages" image="MODx/setting/setting.png" file="MODx/setting/number_of_messages.htm" />
+              <button id="DW_MODx_Setting_number_of_results" MMString:name="insertbar/modx/setting/number_of_results" image="MODx/setting/setting.png" file="MODx/setting/number_of_results.htm" />
+
+
+
+              <button id="DW_MODx_Setting_use_browser" MMString:name="insertbar/modx/setting/use_browser" image="MODx/setting/setting.png" file="MODx/setting/use_browser.htm" />
+              <button id="DW_MODx_Setting_strip_image_paths" MMString:name="insertbar/modx/setting/strip_image_paths" image="MODx/setting/setting.png" file="MODx/setting/strip_image_paths.htm" />
+              <button id="DW_MODx_Setting_rb_base_dir" MMString:name="insertbar/modx/setting/rb_base_dir" image="MODx/setting/setting.png" file="MODx/setting/rb_base_dir.htm" />
+              <button id="DW_MODx_Setting_rb_base_url" MMString:name="insertbar/modx/setting/rb_base_url" image="MODx/setting/setting.png" file="MODx/setting/rb_base_url.htm" />
+              <button id="DW_MODx_Setting_upload_images" MMString:name="insertbar/modx/setting/upload_images" image="MODx/setting/setting.png" file="MODx/setting/upload_images.htm" />
+              <button id="DW_MODx_Setting_upload_media" MMString:name="insertbar/modx/setting/upload_media" image="MODx/setting/setting.png" file="MODx/setting/upload_media.htm" />
+              <button id="DW_MODx_Setting_upload_flash" MMString:name="insertbar/modx/setting/upload_flash" image="MODx/setting/setting.png" file="MODx/setting/upload_flash.htm" />
+
+
+
+              <button id="DW_MODx_Setting_use_editor" MMString:name="insertbar/modx/setting/use_editor" image="MODx/setting/setting.png" file="MODx/setting/use_editor.htm" />
+              <button id="DW_MODx_Setting_which_editor" MMString:name="insertbar/modx/setting/which_editor" image="MODx/setting/setting.png" file="MODx/setting/which_editor.htm" />
+              <button id="DW_MODx_Setting_fe_editor_lang" MMString:name="insertbar/modx/setting/fe_editor_lang" image="MODx/setting/setting.png" file="MODx/setting/fe_editor_lang.htm" />
+              <button id="DW_MODx_Setting_editor_css_path" MMString:name="insertbar/modx/setting/editor_css_path" image="MODx/setting/setting.png" file="MODx/setting/editor_css_path.htm" />
+
+
+
+              <button id="DW_MODx_Setting_tinymce_editor_theme" MMString:name="insertbar/modx/setting/tinymce_editor_theme" image="MODx/setting/setting.png" file="MODx/setting/tinymce_editor_theme.htm" />
+              <button id="DW_MODx_Setting_tinymce_custom_plugins" MMString:name="insertbar/modx/setting/tinymce_custom_plugins" image="MODx/setting/setting.png" file="MODx/setting/tinymce_custom_plugins.htm" />
+              <button id="DW_MODx_Setting_tinymce_custom_buttons1" MMString:name="insertbar/modx/setting/tinymce_custom_buttons1" image="MODx/setting/setting.png" file="MODx/setting/tinymce_custom_buttons1.htm" />
+              <button id="DW_MODx_Setting_tinymce_custom_buttons2" MMString:name="insertbar/modx/setting/tinymce_custom_buttons2" image="MODx/setting/setting.png" file="MODx/setting/tinymce_custom_buttons2.htm" />
+              <button id="DW_MODx_Setting_tinymce_custom_buttons3" MMString:name="insertbar/modx/setting/tinymce_custom_buttons3" image="MODx/setting/setting.png" file="MODx/setting/tinymce_custom_buttons3.htm" />
+              <button id="DW_MODx_Setting_tinymce_custom_buttons4" MMString:name="insertbar/modx/setting/tinymce_custom_buttons4" image="MODx/setting/setting.png" file="MODx/setting/tinymce_custom_buttons4.htm" />
+              <button id="DW_MODx_Setting_tinymce_css_selectors" MMString:name="insertbar/modx/setting/tinymce_css_selectors" image="MODx/setting/setting.png" file="MODx/setting/tinymce_css_selectors.htm" />
+            </menubutton>
+
+            <menubutton id="DW_MODx_Setting_File_Manager" MMString:name="insertbar/modx/setting/menu/file_manager" image="MODx/setting/setting.png" folder="Setting (File Manager)">
+              <button id="DW_MODx_Setting_filemanager_path" MMString:name="insertbar/modx/setting/filemanager_path" image="MODx/setting/setting.png" file="MODx/setting/filemanager_path.htm" />
+              <button id="DW_MODx_Setting_upload_files" MMString:name="insertbar/modx/setting/upload_files" image="MODx/setting/setting.png" file="MODx/setting/upload_files.htm" />
+              <button id="DW_MODx_Setting_upload_maxsize" MMString:name="insertbar/modx/setting/upload_maxsize" image="MODx/setting/setting.png" file="MODx/setting/upload_maxsize.htm" />
+              <button id="DW_MODx_Setting_new_file_permissions" MMString:name="insertbar/modx/setting/new_file_permissions" image="MODx/setting/setting.png" file="MODx/setting/new_file_permissions.htm" />
+              <button id="DW_MODx_Setting_new_folder_permissions" MMString:name="insertbar/modx/setting/new_folder_permissions" image="MODx/setting/setting.png" file="MODx/setting/new_folder_permissions.htm" />
+            </menubutton>
+
+
+
+
+
+
+
+            <!-- Timing ================================================== -->
+            <menubutton id="DW_MODx_Timing" MMString:name="insertbar/modx/timing" image="MODx/timing/timing.png" folder="Timing">
+              <button id="DW_MODx_Timing_qt" MMString:name="insertbar/modx/timing/qt" image="MODx/timing/timing.png" file="MODx/timing/qt.htm" />
+              <button id="DW_MODx_Timing_q" MMString:name="insertbar/modx/timing/q" image="MODx/timing/timing.png" file="MODx/timing/q.htm" />
+              <button id="DW_MODx_Timing_p" MMString:name="insertbar/modx/timing/p" image="MODx/timing/timing.png" file="MODx/timing/p.htm" />
+              <button id="DW_MODx_Timing_t" MMString:name="insertbar/modx/timing/t" image="MODx/timing/timing.png" file="MODx/timing/t.htm" />
+              <button id="DW_MODx_Timing_s" MMString:name="insertbar/modx/timing/s" image="MODx/timing/timing.png" file="MODx/timing/s.htm" />
+            </menubutton>
+          </category>
+        </insertbar-insert>
+      </insertbar-changes>
+    </configuration-changes>
+  </files>
+
+  <configuration-changes>
+  </configuration-changes>
+</macromedia-extension>

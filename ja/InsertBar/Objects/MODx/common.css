@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+table
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 0 none;
+}
+
+table.parameter
+{
+  width: 100%;
+  border: 1px solid #333;
+  background: #fff;
+}
+
+th
+{
+  margin: 0;
+  padding: 4px 2px;
+  font-weight: normal;
+  font-size: 80%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+td
+{
+  margin: 0;
+  padding: 4px 2px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+input
+{
+  vertical-align: middle;
+}
+
+input[type="text"]
+{
+}

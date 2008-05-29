@@ -1,0 +1,227 @@
+<strings>
+	<!-- Common ================================================== -->
+	<string id="insertbar/modx/yes"											value="はい" />
+	<string id="insertbar/modx/no"											value="いいえ" />
+
+
+
+	<!-- Path ================================================== -->
+	<string id="insertbar/modx/path"										value="パス" />
+	<string id="insertbar/modx/path/_help"									value="about:blank" />
+
+	<string id="insertbar/modx/path/assets"									value="Assets" />
+	<string id="insertbar/modx/path/images"									value="Images" />
+	<string id="insertbar/modx/path/js"										value="JavaScript" />
+	<string id="insertbar/modx/path/flash"									value="Flash" />
+	<string id="insertbar/modx/path/media"									value="Media" />
+	<string id="insertbar/modx/path/files"									value="Files" />
+	<string id="insertbar/modx/path/docs"									value="Documents" />
+	<string id="insertbar/modx/path/cache"									value="Cache" />
+	<string id="insertbar/modx/path/export"									value="Export" />
+	<string id="insertbar/modx/path/import"									value="Import" />
+	<string id="insertbar/modx/path/modules"								value="Modules" />
+	<string id="insertbar/modx/path/plugins"								value="Plugins" />
+	<string id="insertbar/modx/path/site"									value="Site" />
+	<string id="insertbar/modx/path/snippets"								value="Snippets" />
+	<string id="insertbar/modx/path/templates"								value="Templates" />
+
+
+
+	<!-- Link ================================================== -->
+	<string id="insertbar/modx/link"										value="リンク" />
+	<string id="insertbar/modx/link/_help"									value="http://modxcms.com/modx-tags.html" />
+	<string id="insertbar/modx/link/id"										value="ID" />
+
+	<string id="insertbar/modx/link/menu/document"							value="リンク&nbsp;(ドキュメント)" />
+
+	<string id="insertbar/modx/link/current"								value="カレントドキュメント" />
+	<string id="insertbar/modx/link/parent"									value="親ドキュメント" />
+	<string id="insertbar/modx/link/site_start"								value="サイトスタート" />
+	<string id="insertbar/modx/link/error_page"								value="エラーページ" />
+	<string id="insertbar/modx/link/unauthorized_page"						value="権限外告知のページ" />
+	<string id="insertbar/modx/link/site_unavailable_page"					value="サイト閉鎖中ページ" />
+
+
+
+	<!-- Snippeet ================================================== -->
+	<string id="insertbar/modx/snippet"										value="スニペット" />
+	<string id="insertbar/modx/snippet/_help"								value="http://modxcms.com/snippets.html" />
+	<string id="insertbar/modx/snippet/cache"								value="Cache?" />
+	<string id="insertbar/modx/snippet/name"								value="Snippet&nbsp;name" />
+	<string id="insertbar/modx/snippet/parameter"							value="Parameter" />
+
+
+
+	<!-- Template Variable ================================================== -->
+	<string id="insertbar/modx/tv"											value="テンプレート変数" />
+	<string id="insertbar/modx/tv/_help"									value="http://www.modxcms.com/document-tvs.html" />
+	<string id="insertbar/modx/tv/name"										value="Template&nbsp;Variable&nbsp;name" />
+
+	<string id="insertbar/modx/tv/menu/general"								value="テンプレート変数&nbsp;(全般)" />
+	<string id="insertbar/modx/tv/menu/pagesettings"						value="テンプレート変数&nbsp;(ページ設定)" />
+	<string id="insertbar/modx/tv/menu/metakeywords"						value="テンプレート変数&nbsp;(META&nbsp;キーワード)" />
+	<string id="insertbar/modx/tv/menu/status"								value="テンプレート変数&nbsp;(ステータス)" />
+
+	<string id="insertbar/modx/tv/id"										value="ドキュメントID" />
+	<string id="insertbar/modx/tv/pagetitle"								value="タイトル" />
+	<string id="insertbar/modx/tv/longtitle"								value="長いタイトル" />
+	<string id="insertbar/modx/tv/description"								value="説明" />
+	<string id="insertbar/modx/tv/type"										value="タイプ" />
+	<string id="insertbar/modx/tv/alias"									value="ドキュメントエイリアス" />
+	<string id="insertbar/modx/tv/link_attributes"							value="リンク属性" />
+	<string id="insertbar/modx/tv/introtext"								value="要約&nbsp;(序説)" />
+	<string id="insertbar/modx/tv/template"									value="使用テンプレート" />
+	<string id="insertbar/modx/tv/menutitle"								value="メニュータイトル" />
+	<string id="insertbar/modx/tv/menuindex"								value="メニューインデックス" />
+	<string id="insertbar/modx/tv/parent"									value="親ドキュメント" />
+	<string id="insertbar/modx/tv/hidemenu"									value="メニューに表示" />
+	<string id="insertbar/modx/tv/content"									value="内容" />
+
+	<string id="insertbar/modx/tv/isfolder"									value="フォルダ?" />
+	<string id="insertbar/modx/tv/richtext"									value="リッチテキスト?" />
+	<string id="insertbar/modx/tv/donthit"									value="訪問の記録" />
+	<string id="insertbar/modx/tv/published"								value="公開?" />
+	<string id="insertbar/modx/tv/pub_date"									value="公開日時" />
+	<string id="insertbar/modx/tv/unpub_date"								value="非公開日時" />
+	<string id="insertbar/modx/tv/searchable"								value="検索対象" />
+	<string id="insertbar/modx/tv/cacheable"								value="キャッシュ可" />
+	<string id="insertbar/modx/tv/syncsite"									value="キャッシュのクリア?" />
+	<string id="insertbar/modx/tv/contentType"								value="コンテンツタイプ" />
+	<string id="insertbar/modx/tv/contentdispo"								value="内容の配置" />
+
+	<string id="insertbar/modx/tv/keywords"									value="キーワード" />
+	<string id="insertbar/modx/tv/metatags"									value="Metaタグ" />
+
+	<string id="insertbar/modx/tv/createdby"								value="作成者" />
+	<string id="insertbar/modx/tv/createdon"								value="作成日時" />
+	<string id="insertbar/modx/tv/editedby"									value="編集者" />
+	<string id="insertbar/modx/tv/editedon"									value="編集日時" />
+	<string id="insertbar/modx/tv/deleted"									value="削除?" />
+	<string id="insertbar/modx/tv/deletedby"								value="削除者" />
+	<string id="insertbar/modx/tv/deletedon"								value="削除日時" />
+	<string id="insertbar/modx/tv/haskeywords"								value="キーワードを持っている?" />
+	<string id="insertbar/modx/tv/hasmetatags"								value="METAタグを持っている?" />
+	<string id="insertbar/modx/tv/privateweb"								value="ウェブユーザからドキュメントグループを隠す?" />
+	<string id="insertbar/modx/tv/privatemgr"								value="マネージャユーザからドキュメントグループを隠す?" />
+
+
+
+	<!-- Chunk ================================================== -->
+	<string id="insertbar/modx/chunk"										value="チャンク" />
+	<string id="insertbar/modx/chunk/_help"									value="http://modxcms.com/modx-tags.html" />
+	<string id="insertbar/modx/chunk/name"									value="Chunk&nbsp;name" />
+
+
+
+	<!-- Place holder ================================================== -->
+	<string id="insertbar/modx/placeholder"									value="プレイスホルダ" />
+	<string id="insertbar/modx/placeholder/_help"							value="http://modxcms.com/modx-tags.html" />
+	<string id="insertbar/modx/placeholder/name"							value="Placeholder&nbsp;name" />
+
+
+
+	<!-- Setting ================================================== -->
+	<string id="insertbar/modx/setting"										value="設定" />
+	<string id="insertbar/modx/setting/_help"								value="http://modxcms.com/modx-tags.html" />
+
+	<string id="insertbar/modx/setting/menu/general"						value="設定&nbsp;(全般)" />
+	<string id="insertbar/modx/setting/menu/site"							value="設定&nbsp;(サイト)" />
+	<string id="insertbar/modx/setting/menu/friendly_urls"					value="設定&nbsp;(フレンドリーURL)" />
+	<string id="insertbar/modx/setting/menu/user"							value="設定&nbsp;(ユーザ)" />
+	<string id="insertbar/modx/setting/menu/interface_features"				value="設定&nbsp;(インターフェイスとその他の機能)" />
+	<string id="insertbar/modx/setting/file_manager"						value="設定&nbsp;(ファイルマネージャ)" />
+
+	<string id="insertbar/modx/setting/base_path"							value="ベースパス" />
+	<string id="insertbar/modx/setting/base_url"							value="ベースURL" />
+	<string id="insertbar/modx/setting/site_url"							value="サイトURL" />
+	<string id="insertbar/modx/setting/site_id"								value="サイトID" />
+	<string id="insertbar/modx/setting/settings_version"					value="設定バージョン" />
+
+	<string id="insertbar/modx/setting/site_name"							value="サイト名" />
+	<string id="insertbar/modx/setting/manager_language"					value="言語" />
+	<string id="insertbar/modx/setting/modx_charset"						value="エンコード" />
+	<string id="insertbar/modx/setting/manager_direction"					value="テキストの方向" />
+	<string id="insertbar/modx/setting/manager_lang_attribute"				value="マネージャの言語コード" />
+	<string id="insertbar/modx/setting/xhtml_urls"							value="XHTML&nbsp;URLs" />
+	<string id="insertbar/modx/setting/site_start"							value="サイトスタート" />
+	<string id="insertbar/modx/setting/error_page"							value="エラーページ" />
+	<string id="insertbar/modx/setting/unauthorized_page"					value="権限外告知のページ" />
+	<string id="insertbar/modx/setting/site_status"							value="サイトステータス" />
+	<string id="insertbar/modx/setting/site_unavailable_page"				value="サイト閉鎖中ページ" />
+	<string id="insertbar/modx/setting/site_unavailable_message"			value="サイト閉鎖中メッセージ" />
+	<string id="insertbar/modx/setting/track_visitors"						value="訪問の記録" />
+	<string id="insertbar/modx/setting/resolve_hostnames"					value="ホスト名の解決" />
+	<string id="insertbar/modx/setting/top_howmany"							value="トップ&nbsp;表示件数" />
+	<string id="insertbar/modx/setting/default_template"					value="デフォルトテンプレート" />
+	<string id="insertbar/modx/setting/publish_default"						value="公開デフォルト" />
+	<string id="insertbar/modx/setting/cache_default"						value="キャッシュデフォルト" />
+	<string id="insertbar/modx/setting/search_default"						value="検索可能デフォルト" />
+	<string id="insertbar/modx/setting/auto_menuindex"						value="メニューインデックス自動増分" />
+	<string id="insertbar/modx/setting/custom_contenttype"					value="カスタムコンテントタイプ" />
+	<string id="insertbar/modx/setting/server_offset_time"					value="サーバオフセットタイム" />
+	<string id="insertbar/modx/setting/server_protocol"						value="サーバタイプ" />
+
+	<string id="insertbar/modx/setting/friendly_urls"						value="フレンドリーURLの使用" />
+	<string id="insertbar/modx/setting/friendly_url_prefix"					value="フレンドリーURLの接頭辞" />
+	<string id="insertbar/modx/setting/friendly_url_suffix"					value="フレンドリーURLの接尾辞" />
+	<string id="insertbar/modx/setting/friendly_alias_urls"					value="フレンドリーエイリアス" />
+	<string id="insertbar/modx/setting/use_alias_path"						value="エイリアスパスを使用" />
+	<string id="insertbar/modx/setting/allow_duplicate_alias"				value="重複エイリアスを許可" />
+	<string id="insertbar/modx/setting/automatic_alias"						value="自動エイリアス生成" />
+
+	<string id="insertbar/modx/setting/use_udperms"							value="アクセス許可機能の使用" />
+	<string id="insertbar/modx/setting/udperms_allowroot"					value="ルートの使用許可" />
+	<string id="insertbar/modx/setting/failed_login_attempts"				value="ログイン失敗の回数" />
+	<string id="insertbar/modx/setting/blocked_minutes"						value="アカウントロックの時間" />
+	<string id="insertbar/modx/setting/use_captcha"							value="CAPTCHAコードの使用" />
+	<string id="insertbar/modx/setting/captcha_words"						value="CAPTCHAワード" />
+	<string id="insertbar/modx/setting/emailsender"							value="送信者メールアドレス" />
+	<string id="insertbar/modx/setting/emailsubject"						value="メール件名" />
+	<string id="insertbar/modx/setting/signupemail_message"					value="サインアップメール" />
+	<string id="insertbar/modx/setting/websignupemail_message"				value="ウェブサインアップメール" />
+	<string id="insertbar/modx/setting/webpwdreminder_message"				value="ウェブリクエストメール" />
+
+	<string id="insertbar/modx/setting/manager_theme"						value="マネージャのテーマ" />
+	<string id="insertbar/modx/setting/tree_show_protected"					value="保護されたページの表示" />
+	<string id="insertbar/modx/setting/show_preview"						value="プレビューウィンドウの表示" />
+	<string id="insertbar/modx/setting/number_of_logs"						value="ログエントリ数" />
+	<string id="insertbar/modx/setting/mail_check_timeperiod"				value="メールチェックのタイミング" />
+	<string id="insertbar/modx/setting/number_of_messages"					value="メッセージ数" />
+	<string id="insertbar/modx/setting/number_of_results"					value="結果の件数" />
+	<string id="insertbar/modx/setting/use_browser"							value="リソースブラウザを使用" />
+	<string id="insertbar/modx/setting/strip_image_paths"					value="ブラウザパスの書き換え?" />
+	<string id="insertbar/modx/setting/rb_base_dir"							value="リソースパス" />
+	<string id="insertbar/modx/setting/rb_base_url"							value="リソースURL" />
+	<string id="insertbar/modx/setting/upload_images"						value="アップロード可能な画像タイプ" />
+	<string id="insertbar/modx/setting/upload_media"						value="アップロード可能なマルチメディアタイプ" />
+	<string id="insertbar/modx/setting/upload_flash"						value="アップロード可能なフラッシュ" />
+	<string id="insertbar/modx/setting/use_editor"							value="エディタの使用" />
+	<string id="insertbar/modx/setting/which_editor"						value="使用エディタ" />
+	<string id="insertbar/modx/setting/fe_editor_lang"						value="フロントエンドエディタの言語" />
+	<string id="insertbar/modx/setting/editor_css_path"						value="CSSファイルへのパス" />
+	<string id="insertbar/modx/setting/tinymce_editor_theme"				value="TinyMCEの設定&nbsp;(テーマ)" />
+	<string id="insertbar/modx/setting/tinymce_custom_plugins"				value="TinyMCEの設定&nbsp;(Custom&nbsp;Plugins)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons1"				value="TinyMCEの設定&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;1)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons2"				value="TinyMCEの設定&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;2)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons3"				value="TinyMCEの設定&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;3)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons4"				value="TinyMCEの設定&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;4)" />
+	<string id="insertbar/modx/setting/tinymce_css_selectors"				value="TinyMCEの設定&nbsp;(CSSスタイルセレクタ)" />
+
+	<string id="insertbar/modx/setting/filemanager_path"					value="ファイルマネージャパス" />
+	<string id="insertbar/modx/setting/upload_files"						value="アップロード可能なファイルタイプ" />
+	<string id="insertbar/modx/setting/upload_maxsize"						value="アップロードサイズの上限" />
+	<string id="insertbar/modx/setting/new_file_permissions"				value="新ファイルのアクセス許可" />
+	<string id="insertbar/modx/setting/new_folder_permissions"				value="新フォルダのアクセス許可" />
+
+
+
+	<!-- Timing ================================================== -->
+	<string id="insertbar/modx/timing"										value="タイミング" />
+	<string id="insertbar/modx/timing/_help"								value="http://modxcms.com/modx-tags.html" />
+
+	<string id="insertbar/modx/timing/qt"									value="クエリタイム" />
+	<string id="insertbar/modx/timing/q"									value="クエリ数" />
+	<string id="insertbar/modx/timing/p"									value="パースタイム" />
+	<string id="insertbar/modx/timing/t"									value="合計タイム" />
+	<string id="insertbar/modx/timing/s"									value="ソース&nbsp;(データベース/キャッシュ)" />
+</strings>

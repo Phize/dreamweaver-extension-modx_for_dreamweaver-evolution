@@ -1,0 +1,309 @@
+<codehints xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+  <menugroup MMString:name="MODx CodesHints" enabled="true" id="MODx_CodeHints">
+    <description>
+      <![CDATA[ When you type a '[(', '[^', '[*', '[+', '[~', '[[' or '[!', a drop-down menu shows a list of MODx codes. ]]>
+    </description>
+
+    <menu pattern="[(" forcedPattern=")]" patternseparator="/" doctypes="HTML, DWTemplate" description="Settings">
+      <menuitem label="[(allow_duplicate_alias)]" value="allow_duplicate_alias)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(automatic_alias)]" value="automatic_alias)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(auto_menuindex)]" value="auto_menuindex)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(base_path)]" value="base_path)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(base_url)]" value="base_url)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(blocked_minutes)]" value="blocked_minutes)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(cache_default)]" value="cache_default)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(captcha_words)]" value="captcha_words)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(custom_contenttype)]" value="custom_contenttype)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(default_template)]" value="default_template)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(editor_css_path)]" value="editor_css_path)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(emailsender)]" value="emailsender)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(emailsubject)]" value="emailsubject)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(error_page)]" value="error_page)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(failed_login_attempts)]" value="failed_login_attempts)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(fe_editor_lang)]" value="fe_editor_lang)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(filemanager_path)]" value="filemanager_path)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(friendly_alias_urls)]" value="friendly_alias_urls)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(friendly_urls)]" value="friendly_urls)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(friendly_urls_prefix)]" value="friendly_urls_prefix)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(friendly_urls_suffix)]" value="friendly_urls_suffix)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(mail_check_timeperiod)]" value="mail_check_timeperiod)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(manager_direction)]" value="manager_direction)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(manager_lang_attribute)]" value="manager_lang_attribute)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(manager_language)]" value="manager_language)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(manager_theme)]" value="manager_theme)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(modx_charset)]" value="modx_charset)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(new_file_permissions)]" value="new_file_permissions)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(new_folder_permissions)]" value="new_folder_permissions)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(number_of_logs)]" value="number_of_logs)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(number_of_messages)]" value="number_of_messages)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(number_of_results)]" value="number_of_results)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(publish_default)]" value="publish_default)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(resolve_hostnames)]" value="resolve_hostnames)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(rb_base_dir)]" value="rb_base_dir)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(rb_base_url)]" value="rb_base_url)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(search_default)]" value="search_default)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(server_offset_time)]" value="server_offset_time)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(server_protocol)]" value="server_protocol)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(settings_version)]" value="settings_version)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(show_preview)]" value="show_preview)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(signupemail_message)]" value="signupemail_message)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(site_id)]" value="site_id)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(site_name)]" value="site_name)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(site_start)]" value="site_start)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(site_status)]" value="site_status)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(site_unavailable_message)]" value="site_unavailable_message)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(site_unavailable_page)]" value="site_unavailable_page)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(site_url)]" value="site_url)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(strip_image_paths)]" value="strip_image_paths)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tinymce_css_selectors)]" value="tinymce_css_selectors)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tinymce_custom_buttons1)]" value="tinymce_custom_buttons1)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tinymce_custom_buttons2)]" value="tinymce_custom_buttons2)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tinymce_custom_buttons3)]" value="tinymce_custom_buttons3)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tinymce_custom_buttons4)]" value="tinymce_custom_buttons4)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tinymce_custom_plugins)]" value="tinymce_custom_plugins)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tinymce_editor_theme)]" value="tinymce_editor_theme)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(top_howmany)]" value="top_howmany)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(track_visitors)]" value="track_visitors)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(tree_show_protected)]" value="tree_show_protected)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(udperms_allowroot)]" value="udperms_allowroot)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(upload_flash)]" value="upload_flash)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(upload_files)]" value="upload_files)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(upload_images)]" value="upload_images)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(upload_maxsize)]" value="upload_maxsize)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(upload_media)]" value="upload_media)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(unauthorized_page)]" value="unauthorized_page)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(use_alias_path)]" value="use_alias_path)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(use_browser)]" value="use_browser)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(use_captcha)]" value="use_captcha)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(use_editor)]" value="use_editor)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(use_udperms)]" value="use_udperms)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(xhtml_urls)]" value="xhtml_urls)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(webpwdreminder_message)]" value="webpwdreminder_message)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(websignupemail_message)]" value="websignupemail_message)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[(which_editor)]" value="which_editor)]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+    </menu>
+
+
+
+    <menu pattern="[^" forcedPattern="^]" patternseparator="/" doctypes="HTML, DWTemplate" description="Timing">
+      <menuitem label="[^qt^]" value="qt^]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[^q^]" value="q^]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[^p^]" value="p^]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[^t^]" value="t^]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[^s^]" value="s^]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+    </menu>
+
+
+
+    <menu pattern="[*" forcedPattern="*]" patternseparator="/" doctypes="HTML, DWTemplate" description="Template Variables">
+      <menuitem label="[*alias*]" value="alias*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*cacheable*]" value="cacheable*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*content*]" value="content*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*contentdispo*]" value="contentdispo*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*contentType*]" value="contentType*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*createdby*]" value="createdby*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*createdon*]" value="createdon*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*deleted*]" value="deleted*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*deletedby*]" value="deletedby*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*deletedon*]" value="deletedon*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*description*]" value="description*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*document_groups*]" value="document_groups*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*donthit*]" value="donthit*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*editedby*]" value="editedby*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*editedon*]" value="editedon*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*haskeywords*]" value="haskeywords*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*hasmetatags*]" value="hasmetatags*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*hidemenu*]" value="hidemenu*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*id*]" value="id*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*introtext*]" value="introtext*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*isfolder*]" value="isfolder*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*keywords*]" value="keywords*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*link_attributes*]" value="link_attributes*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*longtitle*]" value="longtitle*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*menuindex*]" value="menuindex*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*menutitle*]" value="menutitle*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*metatags*]" value="metatags*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*pagetitle*]" value="pagetitle*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*parent*]" value="parent*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*privateweb*]" value="privateweb*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*privatemgr*]" value="privatemgr*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*pub_date*]" value="pub_date*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*published*]" value="published*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*richtext*]" value="richtext*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*searchable*]" value="searchable*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*syncsite*]" value="syncsite*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*template*]" value="template*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*type*]" value="type*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[*unpub_date*]" value="unpub_date*]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+    </menu>
+
+
+
+    <menu pattern="[+" forcedPattern="+]" patternseparator="/" doctypes="HTML, DWTemplate" description="Placeholders">
+      <menuitem label="[+id+]" value="id+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+fields+]" value="fields+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+pwd+]" value="pwd+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+saddr+]" value="saddr+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+semail+]" value="semail+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+sname+]" value="sname+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+surl+]" value="surl+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+theme+]" value="theme+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+ufn+]" value="ufn+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+uid+]" value="uid+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[+value+]" value="value+]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+    </menu>
+
+
+
+    <menu pattern="[~" forcedPattern="~]" patternseparator="/" doctypes="HTML, DWTemplate" description="Links">
+      <menuitem label="[~[(error_page)]~]" value="[(error_page)]~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~[*id*]~]" value="[*id*]~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~[*parent*]~]" value="[*parent*]~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~[(site_start)]~]" value="[(site_start)]~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~[(site_unavailable_page)]~]" value="[(site_unavailable_page)]~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~[(unauthorized_page)]~]" value="[(unauthorized_page)]~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~0~]" value="0~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~1~]" value="1~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~10~]" value="10~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~11~]" value="11~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~12~]" value="12~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~13~]" value="13~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~14~]" value="14~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~15~]" value="15~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~16~]" value="16~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~17~]" value="17~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~18~]" value="18~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~19~]" value="19~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~2~]" value="2~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~20~]" value="20~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~21~]" value="21~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~22~]" value="22~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~23~]" value="23~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~24~]" value="24~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~25~]" value="25~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~26~]" value="26~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~27~]" value="27~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~28~]" value="28~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~29~]" value="29~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~3~]" value="3~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~30~]" value="30~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~31~]" value="31~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~32~]" value="32~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~33~]" value="33~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~34~]" value="34~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~35~]" value="35~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~36~]" value="36~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~37~]" value="37~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~38~]" value="38~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~39~]" value="39~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~4~]" value="4~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~40~]" value="40~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~41~]" value="41~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~42~]" value="42~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~43~]" value="43~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~44~]" value="44~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~45~]" value="45~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~46~]" value="46~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~47~]" value="47~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~48~]" value="48~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~49~]" value="49~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~5~]" value="5~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~50~]" value="50~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~51~]" value="51~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~52~]" value="52~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~53~]" value="53~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~54~]" value="54~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~55~]" value="55~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~56~]" value="56~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~57~]" value="57~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~58~]" value="58~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~59~]" value="59~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~6~]" value="6~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~60~]" value="60~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~61~]" value="61~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~62~]" value="62~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~63~]" value="63~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~64~]" value="64~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~65~]" value="65~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~66~]" value="66~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~67~]" value="67~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~68~]" value="68~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~69~]" value="69~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~7~]" value="7~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~70~]" value="70~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~71~]" value="71~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~72~]" value="72~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~73~]" value="73~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~74~]" value="74~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~75~]" value="75~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~76~]" value="76~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~77~]" value="77~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~78~]" value="78~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~79~]" value="79~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~8~]" value="8~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~80~]" value="80~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~81~]" value="81~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~82~]" value="82~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~83~]" value="83~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~84~]" value="84~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~85~]" value="85~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~86~]" value="86~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~87~]" value="87~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~88~]" value="88~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~89~]" value="89~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~9~]" value="9~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~90~]" value="90~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~91~]" value="91~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~92~]" value="92~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~93~]" value="93~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~94~]" value="94~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~95~]" value="95~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~96~]" value="96~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~97~]" value="97~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~98~]" value="98~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[~89~]" value="99~]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+    </menu>
+
+
+
+    <menu pattern="[[" forcedPattern="]]" patternseparator="/" doctypes="HTML, DWTemplate" description="Snippets">
+      <menuitem label="[[AjaxSearch]]" value="AjaxSearch]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[Breadcrumbs]]" value="Breadcrumbs]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[Ditto]]" value="Ditto]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[eForm]]" value="eForm]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[FirstChildRedirect]]" value="FirstChildRedirect]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[Jot]]" value="Jot]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[ListIndexer]]" value="ListIndexer]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[MemberCheck]]" value="MemberCheck]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[NewsPublisher]]" value="NewsPublisher]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[Personalize]]" value="Personalize]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[Reflect]]" value="Reflect]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[UltimateParent]]" value="UltimateParent]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[Wayfinder]]" value="Wayfinder]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[WebChangePwd]]" value="WebChangePwd]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[WebLogin]]" value="WebLogin]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[[WebSignup]]" value="WebSignup]]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+    </menu>
+
+
+
+    <menu pattern="[!" forcedPattern="!]" patternseparator="/" doctypes="HTML, DWTemplate" description="Snippets">
+      <menuitem label="[!AjaxSearch!]" value="AjaxSearch!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!Breadcrumbs!]" value="Breadcrumbs!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!Ditto!]" value="Ditto!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!eForm!]" value="eForm!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!FirstChildRedirect!]" value="FirstChildRedirect!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!Jot!]" value="Jot!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!ListIndexer!]" value="ListIndexer!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!MemberCheck!]" value="MemberCheck!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!NewsPublisher!]" value="NewsPublisher!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!Personalize!]" value="Personalize!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!Reflect!]" value="Reflect!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!UltimateParent!]" value="UltimateParent!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!Wayfinder!]" value="Wayfinder!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!WebChangePwd!]" value="WebChangePwd!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!WebLogin!]" value="WebLogin!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+      <menuitem label="[!WebSignup!]" value="WebSignup!]" icon="Objects/MODxCodeHints/CodeHints.png" description="" />
+    </menu>
+  </menugroup>
+<codehints>

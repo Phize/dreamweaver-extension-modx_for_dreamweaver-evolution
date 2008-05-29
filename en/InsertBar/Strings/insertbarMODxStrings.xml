@@ -1,0 +1,227 @@
+<strings>
+	<!-- Common ================================================== -->
+	<string id="insertbar/modx/yes"											value="Yes" />
+	<string id="insertbar/modx/no"											value="No" />
+
+
+
+	<!-- Path ================================================== -->
+	<string id="insertbar/modx/path"										value="Path" />
+	<string id="insertbar/modx/path/_help"									value="about:blank" />
+
+	<string id="insertbar/modx/path/assets"									value="Assets" />
+	<string id="insertbar/modx/path/images"									value="Images" />
+	<string id="insertbar/modx/path/js"										value="JavaScript" />
+	<string id="insertbar/modx/path/flash"									value="Flash" />
+	<string id="insertbar/modx/path/media"									value="Media" />
+	<string id="insertbar/modx/path/files"									value="Files" />
+	<string id="insertbar/modx/path/docs"									value="Documents" />
+	<string id="insertbar/modx/path/cache"									value="Cache" />
+	<string id="insertbar/modx/path/export"									value="Export" />
+	<string id="insertbar/modx/path/import"									value="Import" />
+	<string id="insertbar/modx/path/modules"								value="Modules" />
+	<string id="insertbar/modx/path/plugins"								value="Plugins" />
+	<string id="insertbar/modx/path/site"									value="Site" />
+	<string id="insertbar/modx/path/snippets"								value="Snippets" />
+	<string id="insertbar/modx/path/templates"								value="Templates" />
+
+
+
+	<!-- Link ================================================== -->
+	<string id="insertbar/modx/link"										value="Link" />
+	<string id="insertbar/modx/link/_help"									value="http://modxcms.com/modx-tags.html" />
+	<string id="insertbar/modx/link/id"										value="ID" />
+
+	<string id="insertbar/modx/link/menu/document"							value="Link&nbsp;(Document)" />
+
+	<string id="insertbar/modx/link/current"								value="Current&nbsp;document" />
+	<string id="insertbar/modx/link/parent"									value="Parent&nbsp;document" />
+	<string id="insertbar/modx/link/site_start"								value="Site&nbsp;start" />
+	<string id="insertbar/modx/link/error_page"								value="Error&nbsp;page" />
+	<string id="insertbar/modx/link/unauthorized_page"						value="Unauthorized&nbsp;page" />
+	<string id="insertbar/modx/link/site_unavailable_page"					value="Site&nbsp;unavailable page" />
+
+
+
+	<!-- Snippeet ================================================== -->
+	<string id="insertbar/modx/snippet"										value="Snippet" />
+	<string id="insertbar/modx/snippet/_help"								value="http://modxcms.com/snippets.html" />
+	<string id="insertbar/modx/snippet/cache"								value="Cache?" />
+	<string id="insertbar/modx/snippet/name"								value="Snippet&nbsp;name" />
+	<string id="insertbar/modx/snippet/parameter"							value="Parameter" />
+
+
+
+	<!-- Template Variable ================================================== -->
+	<string id="insertbar/modx/tv"											value="Template&nbsp;Variable" />
+	<string id="insertbar/modx/tv/_help"									value="http://www.modxcms.com/document-tvs.html" />
+	<string id="insertbar/modx/tv/name"										value="Template&nbsp;Variable&nbsp;name" />
+
+	<string id="insertbar/modx/tv/menu/general"								value="Template&nbsp;Variable&nbsp;(General)" />
+	<string id="insertbar/modx/tv/menu/pagesettings"						value="Template&nbsp;Variable&nbsp;(Page&nbsp;Settings)" />
+	<string id="insertbar/modx/tv/menu/metakeywords"						value="Template&nbsp;Variable&nbsp;(META&nbsp;Keywords)" />
+	<string id="insertbar/modx/tv/menu/status"								value="Template&nbsp;Variable&nbsp;(Status)" />
+
+	<string id="insertbar/modx/tv/id"										value="Document&nbsp;ID" />
+	<string id="insertbar/modx/tv/pagetitle"								value="Title" />
+	<string id="insertbar/modx/tv/longtitle"								value="Long&nbsp;title" />
+	<string id="insertbar/modx/tv/description"								value="Description" />
+	<string id="insertbar/modx/tv/type"										value="Type" />
+	<string id="insertbar/modx/tv/alias"									value="Alias" />
+	<string id="insertbar/modx/tv/link_attributes"							value="Link&nbsp;Attributes" />
+	<string id="insertbar/modx/tv/introtext"								value="Summary&nbsp;(introtext)" />
+	<string id="insertbar/modx/tv/template"									value="Template&nbsp;ID" />
+	<string id="insertbar/modx/tv/menutitle"								value="Menu&nbsp;title" />
+	<string id="insertbar/modx/tv/menuindex"								value="Menu&nbsp;index" />
+	<string id="insertbar/modx/tv/parent"									value="Parent&nbsp;document&nbsp;ID" />
+	<string id="insertbar/modx/tv/hidemenu"									value="Hide&nbsp;from&nbsp;menu?" />
+	<string id="insertbar/modx/tv/content"									value="Content" />
+
+	<string id="insertbar/modx/tv/isfolder"									value="Container?" />
+	<string id="insertbar/modx/tv/richtext"									value="Rich&nbsp;text?" />
+	<string id="insertbar/modx/tv/donthit"									value="Don't&nbsp;log&nbsp;visits?" />
+	<string id="insertbar/modx/tv/published"								value="Published?" />
+	<string id="insertbar/modx/tv/pub_date"									value="Publish&nbsp;date" />
+	<string id="insertbar/modx/tv/unpub_date"								value="Un-publish&nbsp;date" />
+	<string id="insertbar/modx/tv/searchable"								value="Searchable?" />
+	<string id="insertbar/modx/tv/cacheable"								value="Cacheable?" />
+	<string id="insertbar/modx/tv/syncsite"									value="Empty&nbsp;cache?" />
+	<string id="insertbar/modx/tv/contentType"								value="Content&nbsp;Type" />
+	<string id="insertbar/modx/tv/contentdispo"								value="Content&nbsp;Disposition" />
+
+	<string id="insertbar/modx/tv/keywords"									value="Keywords" />
+	<string id="insertbar/modx/tv/metatags"									value="Meta&nbsp;tags" />
+
+	<string id="insertbar/modx/tv/createdby"								value="Created&nbsp;by" />
+	<string id="insertbar/modx/tv/createdon"								value="Created&nbsp;on" />
+	<string id="insertbar/modx/tv/editedby"									value="Edited&nbsp;by" />
+	<string id="insertbar/modx/tv/editedon"									value="Edited&nbsp;on" />
+	<string id="insertbar/modx/tv/deleted"									value="Deleted?" />
+	<string id="insertbar/modx/tv/deletedby"								value="Deleted&nbsp;by" />
+	<string id="insertbar/modx/tv/deletedon"								value="Deleted&nbsp;on" />
+	<string id="insertbar/modx/tv/haskeywords"								value="Has&nbsp;keywords?" />
+	<string id="insertbar/modx/tv/hasmetatags"								value="Has&nbsp;Meta&nbsp;tags?" />
+	<string id="insertbar/modx/tv/privateweb"								value="Private&nbsp;web&nbsp;document&nbsp;group?" />
+	<string id="insertbar/modx/tv/privatemgr"								value="Private&nbsp;manager&nbsp;document&nbsp;group?" />
+
+
+
+	<!-- Chunk ================================================== -->
+	<string id="insertbar/modx/chunk"										value="Chunk" />
+	<string id="insertbar/modx/chunk/_help"									value="http://modxcms.com/modx-tags.html" />
+	<string id="insertbar/modx/chunk/name"									value="Chunk&nbsp;name" />
+
+
+
+	<!-- Place holder ================================================== -->
+	<string id="insertbar/modx/placeholder"									value="Placeholder" />
+	<string id="insertbar/modx/placeholder/_help"							value="http://modxcms.com/modx-tags.html" />
+	<string id="insertbar/modx/placeholder/name"							value="Placeholder&nbsp;name" />
+
+
+
+	<!-- Setting ================================================== -->
+	<string id="insertbar/modx/setting"										value="Setting" />
+	<string id="insertbar/modx/setting/_help"								value="http://modxcms.com/modx-tags.html" />
+
+	<string id="insertbar/modx/setting/menu/general"						value="Setting&nbsp;(General)" />
+	<string id="insertbar/modx/setting/menu/site"							value="Setting&nbsp;(Site)" />
+	<string id="insertbar/modx/setting/menu/friendly_urls"					value="Setting&nbsp;(Friendly&nbsp;URLs)" />
+	<string id="insertbar/modx/setting/menu/user"							value="Setting&nbsp;(User)" />
+	<string id="insertbar/modx/setting/menu/interface_features"				value="Setting&nbsp;(Interface&nbsp;&amp;&nbsp;Features)" />
+	<string id="insertbar/modx/setting/file_manager"						value="Setting&nbsp;(File&nbsp;Manager)" />
+
+	<string id="insertbar/modx/setting/base_path"							value="Base&nbsp;path" />
+	<string id="insertbar/modx/setting/base_url"							value="Base&nbsp;URL" />
+	<string id="insertbar/modx/setting/site_url"							value="Site&nbsp;URL" />
+	<string id="insertbar/modx/setting/site_id"								value="Site&nbsp;ID" />
+	<string id="insertbar/modx/setting/settings_version"					value="Settings&nbsp;version" />
+
+	<string id="insertbar/modx/setting/site_name"							value="Site&nbsp;name" />
+	<string id="insertbar/modx/setting/manager_language"					value="Language" />
+	<string id="insertbar/modx/setting/modx_charset"						value="Character&nbsp;encoding" />
+	<string id="insertbar/modx/setting/manager_direction"					value="Manager&nbsp;Text&nbsp;Direction" />
+	<string id="insertbar/modx/setting/manager_lang_attribute"				value="Manager&nbsp;HTML&nbsp;and&nbsp;XML&nbsp;Language&nbsp;Attribute" />
+	<string id="insertbar/modx/setting/xhtml_urls"							value="XHTML&nbsp;URLs" />
+	<string id="insertbar/modx/setting/site_start"							value="Site&nbsp;start" />
+	<string id="insertbar/modx/setting/error_page"							value="Error&nbsp;page" />
+	<string id="insertbar/modx/setting/unauthorized_page"					value="Unauthorized&nbsp;page" />
+	<string id="insertbar/modx/setting/site_status"							value="Site&nbsp;status" />
+	<string id="insertbar/modx/setting/site_unavailable_page"				value="Site&nbsp;unavailable&nbsp;page" />
+	<string id="insertbar/modx/setting/site_unavailable_message"			value="Site&nbsp;unavailable&nbsp;message" />
+	<string id="insertbar/modx/setting/track_visitors"						value="Log&nbsp;visits&nbsp;(stats)" />
+	<string id="insertbar/modx/setting/resolve_hostnames"					value="Resolve&nbsp;hostnames" />
+	<string id="insertbar/modx/setting/top_howmany"							value="Top&nbsp;how&nbsp;many" />
+	<string id="insertbar/modx/setting/default_template"					value="Default&nbsp;template" />
+	<string id="insertbar/modx/setting/publish_default"						value="Published&nbsp;default" />
+	<string id="insertbar/modx/setting/cache_default"						value="Cacheable&nbsp;default" />
+	<string id="insertbar/modx/setting/search_default"						value="Searchable&nbsp;default" />
+	<string id="insertbar/modx/setting/auto_menuindex"						value="Menu&nbsp;indexing&nbsp;default" />
+	<string id="insertbar/modx/setting/custom_contenttype"					value="Custom&nbsp;content&nbsp;type" />
+	<string id="insertbar/modx/setting/server_offset_time"					value="Server&nbsp;offset&nbsp;time" />
+	<string id="insertbar/modx/setting/server_protocol"						value="Server&nbsp;type" />
+
+	<string id="insertbar/modx/setting/friendly_urls"						value="Use&nbsp;friendly&nbsp;URLs" />
+	<string id="insertbar/modx/setting/friendly_url_prefix"					value="Prefix&nbsp;for&nbsp;friendly&nbsp;URLs" />
+	<string id="insertbar/modx/setting/friendly_url_suffix"					value="Suffix&nbsp;for&nbsp;friendly&nbsp;URLs" />
+	<string id="insertbar/modx/setting/friendly_alias_urls"					value="Use&nbsp;friendly&nbsp;aliases" />
+	<string id="insertbar/modx/setting/use_alias_path"						value="Use&nbsp;friendly&nbsp;alias&nbsp;path" />
+	<string id="insertbar/modx/setting/allow_duplicate_alias"				value="Allow&nbsp;duplicate&nbsp;aliases" />
+	<string id="insertbar/modx/setting/automatic_alias"						value="Automatically&nbsp;generate&nbsp;alias" />
+
+	<string id="insertbar/modx/setting/use_udperms"							value="Use&nbsp;access&nbsp;permissions" />
+	<string id="insertbar/modx/setting/udperms_allowroot"					value="Allow&nbsp;root" />
+	<string id="insertbar/modx/setting/failed_login_attempts"				value="Failed&nbsp;Login&nbsp;Attempts" />
+	<string id="insertbar/modx/setting/blocked_minutes"						value="Blocked&nbsp;Minutes" />
+	<string id="insertbar/modx/setting/use_captcha"							value="Use&nbsp;CAPTCHA&nbsp;codes" />
+	<string id="insertbar/modx/setting/captcha_words"						value="CAPTCHA&nbsp;Words" />
+	<string id="insertbar/modx/setting/emailsender"							value="E-mail&nbsp;address" />
+	<string id="insertbar/modx/setting/emailsubject"						value="E-mail&nbsp;subject" />
+	<string id="insertbar/modx/setting/signupemail_message"					value="Signup&nbsp;e-mail" />
+	<string id="insertbar/modx/setting/websignupemail_message"				value="Web&nbsp;Signup&nbsp;e-mail" />
+	<string id="insertbar/modx/setting/webpwdreminder_message"				value="Web&nbsp;Reminder&nbsp;Email" />
+
+	<string id="insertbar/modx/setting/manager_theme"						value="Manager&nbsp;Theme" />
+	<string id="insertbar/modx/setting/tree_show_protected"					value="Show&nbsp;protected&nbsp;pages" />
+	<string id="insertbar/modx/setting/show_preview"						value="Show&nbsp;Preview&nbsp;Window" />
+	<string id="insertbar/modx/setting/number_of_logs"						value="Number&nbsp;of&nbsp;log&nbsp;entries" />
+	<string id="insertbar/modx/setting/mail_check_timeperiod"				value="Mail&nbsp;Check&nbsp;Time&nbsp;Period" />
+	<string id="insertbar/modx/setting/number_of_messages"					value="Number&nbsp;of&nbsp;messages" />
+	<string id="insertbar/modx/setting/number_of_results"					value="Number&nbsp;of&nbsp;Results" />
+	<string id="insertbar/modx/setting/use_browser"							value="Enable&nbsp;Resource&nbsp;Browser" />
+	<string id="insertbar/modx/setting/strip_image_paths"					value="Rewrite&nbsp;browser&nbsp;paths?" />
+	<string id="insertbar/modx/setting/rb_base_dir"							value="Resource&nbsp;path" />
+	<string id="insertbar/modx/setting/rb_base_url"							value="Resource&nbsp;URL" />
+	<string id="insertbar/modx/setting/upload_images"						value="Uploadable&nbsp;Image&nbsp;Types" />
+	<string id="insertbar/modx/setting/upload_media"						value="Uploadable&nbsp;Media&nbsp;Types" />
+	<string id="insertbar/modx/setting/upload_flash"						value="Uploadable&nbsp;Flash&nbsp;Types" />
+	<string id="insertbar/modx/setting/use_editor"							value="Enable&nbsp;editor" />
+	<string id="insertbar/modx/setting/which_editor"						value="Editor&nbsp;to&nbsp;use" />
+	<string id="insertbar/modx/setting/fe_editor_lang"						value="Front-end&nbsp;Editor&nbsp;Language" />
+	<string id="insertbar/modx/setting/editor_css_path"						value="Path&nbsp;to&nbsp;CSS&nbsp;file" />
+	<string id="insertbar/modx/setting/tinymce_editor_theme"				value="TinyMCE&nbsp;Settings&nbsp;(Theme)" />
+	<string id="insertbar/modx/setting/tinymce_custom_plugins"				value="TinyMCE&nbsp;Settings&nbsp;(Custom&nbsp;Plugins)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons1"				value="TinyMCE&nbsp;Settings&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;1)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons2"				value="TinyMCE&nbsp;Settings&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;2)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons3"				value="TinyMCE&nbsp;Settings&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;3)" />
+	<string id="insertbar/modx/setting/tinymce_custom_buttons4"				value="TinyMCE&nbsp;Settings&nbsp;(Custom&nbsp;Buttons:&nbsp;Row&nbsp;4)" />
+	<string id="insertbar/modx/setting/tinymce_css_selectors"				value="TinyMCE&nbsp;Settings&nbsp;(CSS&nbsp;Selectors)" />
+
+	<string id="insertbar/modx/setting/filemanager_path"					value="File&nbsp;Manager&nbsp;Path" />
+	<string id="insertbar/modx/setting/upload_files"						value="Uploadable&nbsp;File&nbsp;Types" />
+	<string id="insertbar/modx/setting/upload_maxsize"						value="Maximum&nbsp;upload&nbsp;size" />
+	<string id="insertbar/modx/setting/new_file_permissions"				value="New&nbsp;File&nbsp;Permissions" />
+	<string id="insertbar/modx/setting/new_folder_permissions"				value="New&nbsp;Folder&nbsp;Permissions" />
+
+
+
+	<!-- Timing ================================================== -->
+	<string id="insertbar/modx/timing"										value="Timing" />
+	<string id="insertbar/modx/timing/_help"								value="http://modxcms.com/modx-tags.html" />
+
+	<string id="insertbar/modx/timing/qt"									value="Query&nbsp;Time" />
+	<string id="insertbar/modx/timing/q"									value="Query&nbsp;Count" />
+	<string id="insertbar/modx/timing/p"									value="Parse&nbsp;Time" />
+	<string id="insertbar/modx/timing/t"									value="Total&nbsp;Time" />
+	<string id="insertbar/modx/timing/s"									value="Source" />
+</strings>
