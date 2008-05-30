@@ -90,7 +90,7 @@
 	<string id="insertbar/modx/tv/contentdispo"								value="内容の配置" />
 
 	<string id="insertbar/modx/tv/keywords"									value="キーワード" />
-	<string id="insertbar/modx/tv/metatags"									value="Metaタグ" />
+	<string id="insertbar/modx/tv/metatags"									value="METAタグ" />
 
 	<string id="insertbar/modx/tv/createdby"								value="作成者" />
 	<string id="insertbar/modx/tv/createdon"								value="作成日時" />
@@ -129,7 +129,7 @@
 	<string id="insertbar/modx/setting/menu/friendly_urls"					value="設定&nbsp;(フレンドリーURL)" />
 	<string id="insertbar/modx/setting/menu/user"							value="設定&nbsp;(ユーザ)" />
 	<string id="insertbar/modx/setting/menu/interface_features"				value="設定&nbsp;(インターフェイスとその他の機能)" />
-	<string id="insertbar/modx/setting/file_manager"						value="設定&nbsp;(ファイルマネージャ)" />
+	<string id="insertbar/modx/setting/menu/file_manager"					value="設定&nbsp;(ファイルマネージャ)" />
 
 	<string id="insertbar/modx/setting/base_path"							value="ベースパス" />
 	<string id="insertbar/modx/setting/base_url"							value="ベースURL" />

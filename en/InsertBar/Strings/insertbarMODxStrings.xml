@@ -129,7 +129,7 @@
 	<string id="insertbar/modx/setting/menu/friendly_urls"					value="Setting&nbsp;(Friendly&nbsp;URLs)" />
 	<string id="insertbar/modx/setting/menu/user"							value="Setting&nbsp;(User)" />
 	<string id="insertbar/modx/setting/menu/interface_features"				value="Setting&nbsp;(Interface&nbsp;&amp;&nbsp;Features)" />
-	<string id="insertbar/modx/setting/file_manager"						value="Setting&nbsp;(File&nbsp;Manager)" />
+	<string id="insertbar/modx/setting/menu/file_manager"					value="Setting&nbsp;(File&nbsp;Manager)" />
 
 	<string id="insertbar/modx/setting/base_path"							value="Base&nbsp;path" />
 	<string id="insertbar/modx/setting/base_url"							value="Base&nbsp;URL" />
