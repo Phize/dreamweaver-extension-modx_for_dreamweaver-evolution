@@ -1,4 +1,4 @@
-<macromedia-extension name="MODx for Dreamweaver" version="1.0.0" type="suite" requires-restart="true">
+<macromedia-extension name="MODx for Dreamweaver" version="1.0.1" type="suite" requires-restart="true">
   <author name="Phize" />
 
   <products>
@@ -428,7 +428,7 @@ http://phize.net ]]>
               <button id="DW_MODx_TV_menutitle" MMString:name="insertbar/modx/tv/menutitle" image="MODx/tv/tv.png" file="MODx/tv/menutitle.htm" />
               <button id="DW_MODx_TV_parent" MMString:name="insertbar/modx/tv/parent" image="MODx/tv/tv.png" file="MODx/tv/parent.htm" />
               <button id="DW_MODx_TV_hidemenu" MMString:name="insertbar/modx/tv/hidemenu" image="MODx/tv/tv.png" file="MODx/tv/hidemenu.htm" />
-              <button id="DW_MODx_TV_content" MMString:name="insertbar/modx/tv/content" image="MODx/tv/tv.png" file="MODx/tv/.htm" />
+              <button id="DW_MODx_TV_content" MMString:name="insertbar/modx/tv/content" image="MODx/tv/tv.png" file="MODx/tv/content.htm" />
             </menubutton>
 
             <menubutton id="DW_MODx_TV_PageSettings" MMString:name="insertbar/modx/tv/menu/pagesettings" image="MODx/tv/tv.png" folder="Template Variable (Page Setting)">
